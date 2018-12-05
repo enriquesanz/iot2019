@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
 import Chilling from "../images/gugge.jpg";
+import ACM from "../images/acm.png";
+import CHI from "../images/chi.png";
+import ICPS from "../images/icps.jpg";
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -11,8 +14,8 @@ const IndexPage = () => (
 
   <div className="text-center">
   
-    <section>
-      <img className="bg-hero" src={Chilling} />
+    <section className="bg-hero">
+      <img src={Chilling} />
       <h2 className="bg-yellow inline-block my-8 p-3">
       The 9th International Conference on the Internet of Things (IoT 2019)
   Bilbao, Spain
@@ -25,13 +28,40 @@ const IndexPage = () => (
 
     </p>
     <br/>
-    <p>
-    <div className="md:w-3/3 md:mr-8">
-      <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
+    <div className="flex">
+    <div className="md:w-2/3 md:mr-8">
+      <p className="font-serif leading-loose pl-4 text-justify">
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       </p>
     </div>
+    <div className="md:w-2/3 md:mr-8">
+      <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify">
+      <h3>Paper Submission Key Dates:</h3>
+      <ul className="list-restet">
+        <li><strong>Abstract and title due:</strong> Tuesday, January 15, 2019</li>
+        <li><strong>Paper submission deadline:</strong> Friday, January 18, 2019</li>
+        <li><strong>Papers camera ready deadline:</strong> Wednesday, April 17, 2019</li>
+        <li><strong>Conference:</strong> June 23-28, 2019</li>
+      </ul>
+      </p>
+    </div>
+    </div>
     <br/>
+    <p>
+
+    <div className="flex bg-grey-lighter">
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={ACM} /></div>
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={CHI} /></div>
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={ICPS} /></div>
+    </div>
+
+    <h3>Sponsors</h3>
+    <div className="flex bg-grey-lighter">
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
+      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
+    </div>
+
 
     <div className="flex bg-grey-lighter">
       <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaFacebookF /></div>
