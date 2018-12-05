@@ -8,14 +8,18 @@ import GatsbyLink from "gatsby-link";
 
 
 const IndexPage = () => (
+
   <div className="text-center">
-    <img src={Chilling} />
-    <h2 className="bg-yellow inline-block my-8 p-3">
-    The 9th International Conference on the Internet of Things (IoT 2019)
-Bilbao, Spain
-22-25th, October 2019
+  
+    <section>
+      <img className="bg-hero" src={Chilling} />
+      <h2 className="bg-yellow inline-block my-8 p-3">
+      The 9th International Conference on the Internet of Things (IoT 2019)
+  Bilbao, Spain
+  22-25th, October 2019
 
     </h2>
+    </section>
     <p className="leading-loose">
       The 9th International Conference on the Internet of Things (IoT 2019) hosted by the University of Deusto will take place from October 22–25, 2019 in Bilbao, Spain.
 
