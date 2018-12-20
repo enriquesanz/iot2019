@@ -14,7 +14,7 @@ const IndexPage = () => (
 
   <div className="text-center">
   
-    <section className="bg-hero">
+    <section>
       <img src={Chilling} />
       <h2 className="bg-yellow inline-block my-8 p-3">
       The 9th International Conference on the Internet of Things (IoT 2019)
