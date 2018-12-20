@@ -50,8 +50,18 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
           <li>Conference: October 22-25, 2019</li>
         </ul>
 
-        <h2>Preparing and Submitting Your Papers:</h2>
-        Papers have to be submitted via the EasyChair conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere. Papers should not exceed 8 pages, including figures and references. The paper layout should follow the SIGCHI Conference format. Papers are peer-reviewed by a committee of experts in the IoT field and selected based on technical novelty, integrity of the analysis, and practical relevance and impact. Accepted papers will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library. Selected papers will be invited to extend and improve their contributions to  Special Issues under consideration.
+        <h2>Preparing and Submitting Your WiP or Demo:</h2>
+        Researchers interested should submit a between 2 and 4-pages abstract in the most recent ACM SIGCHI Extended Abstracts Format including references. Papers have to be submitted via our EasyChair submission site conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere.
+
+Papers are peer-reviewed by a committee of experts in the IoT field. Accepted papers will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library.
+Your submission should be close to camera-ready and thoroughly copy-edited due to the short selection cycle. Furthermore, due to the very rapid selection process we cannot offer any extensions to the deadline. Submissions are not anonymous and should therefore include all author names, affiliations and contact information and references to external data, software or videos, if applicable. Each application will be evaluated based on the IoT Topics of Interest.
+
+        <h3>Special note to WiPs submissions:</h3>
+        When preparing accepted posters please note that your poster should not exceed the following dimensions: 841 x 1189 mm portrait format. Other formats will not be supported.
+
+        <h3>Special note to Demos submissions: </h3>
+        Include an appendix with the description of the system and its purpose, its status of implementation and deployment, contents of the demo to be shown at the conference, and equipment. If you want to show a commercial product then you might be asked to pay an exhibition fee.
+
 
     </p>
     </div>
