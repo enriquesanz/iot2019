@@ -8,7 +8,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import GatsbyLink from "gatsby-link";
-
+import Sponsors from "../components/Sponsors";
 
 const IndexPage = () => (
 
@@ -69,27 +69,9 @@ const IndexPage = () => (
       {/*<div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={ICPS} /></div>*/}
     </div>
 
-    <h3>Sponsors</h3>
-    <div className="flex bg-grey-lighter">
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150" /></div>
-    </div>
 
+    <Sponsors />
 
-    <div className="flex bg-grey-lighter">
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaFacebookF /></div>
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaTwitter /></div>
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaLinkedinIn /></div>
-    </div>
-
-
-      {/* <a
-        href="https://tailwindcss.com/"
-        className="font-bold no-underline text-grey-darkest"
-      >
-        Tailwind
-      </a>, a utility-first CSS framework. */}
     </p>
   </div>
 );

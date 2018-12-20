@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import cautiousDog from "../images/cautious-dog.svg";
+import Sponsors from "../components/Sponsors";
 
 const CFPPage = () => (
   <div className="flex flex-col md:flex-row items-center">
@@ -54,6 +55,7 @@ const CFPPage = () => (
 
       </p>      
       </div>
+      <Sponsors />
     </div>
   </div>
 );
