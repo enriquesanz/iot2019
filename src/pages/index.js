@@ -1,6 +1,8 @@
-import React from "react";
-import Link from "gatsby-link";
-import Chilling from "../images/gugge.jpg";
+import React from 'react'
+
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Gugge from "../images/gugge.jpg";
 import ACM from "../images/acm.png";
 import CHI from "../images/chi.png";
 import ICPS from "../images/icps.jpg";
@@ -8,14 +10,18 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import GatsbyLink from "gatsby-link";
-import Sponsors from "../components/Sponsors";
+import Sponsors from "../components/sponsors";
 
 const IndexPage = () => (
+  <Layout>
+    <SEO
+      title="Home"
+      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+    />
 
-  <div className="text-center">
-  
+    <div className="text-center">
     <section>
-      <img src={Chilling} />
+      <img src={Gugge} />
       <h2 className="bg-yellow inline-block my-8 p-3">
       The 9th International Conference on the Internet of Things (IoT 2019)
   Bilbao, Spain
@@ -23,10 +29,7 @@ const IndexPage = () => (
 
     </h2>
     </section>
-    <p className="leading-loose">
-      The 9th International Conference on the Internet of Things (IoT 2019) hosted by the University of Deusto will take place from October 22–25, 2019 in Bilbao, Spain.
 
-    </p>
     <br/>
     <div className="flex">
     <div className="md:w-2/3 md:mr-8">
@@ -73,7 +76,8 @@ const IndexPage = () => (
     <Sponsors />
 
     </p>
-  </div>
-);
+    </div>
+  </Layout>
+)
 
-export default IndexPage;
+export default IndexPage

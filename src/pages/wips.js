@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
-import cautiousDog from "../images/cautious-dog.svg";
+import Layout from '../components/layout'
 
-const CFPPage = () => (
+const WipsPage = () => (
+    <Layout>
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
@@ -68,8 +69,8 @@ Your submission should be close to camera-ready and thoroughly copy-edited due t
 
     </div>
  </div>
-
+ </Layout>
   
 );
 
-export default CFPPage;
+export default WipsPage;

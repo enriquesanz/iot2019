@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
-import cautiousDog from "../images/cautious-dog.svg";
+import Layout from '../components/layout'
 
-const CFPPage = () => (
+const WorkshopsPage = () => (
+    <Layout>
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
@@ -84,7 +85,8 @@ We invite submission of half-day workshop proposals, with a clearly defined scop
     </div>
  </div>
 
+ </Layout>
   
 );
 
-export default CFPPage;
+export default WorkshopsPage;

@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import cautiousDog from "../images/cautious-dog.svg";
+import Sponsors from "../components/sponsors";
+import Layout from '../components/layout'
 
-const CFPPage = () => (
-  <div className="flex flex-col md:flex-row items-center">
+const PapersPage = () => (
+<Layout>
+<div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
       <h1>Full and short papers</h1>
@@ -60,8 +62,7 @@ In general terms, IoT 2019 is seeking for original, high impact research papers 
 
     </div>
  </div>
-
-  
+  </Layout>
 );
 
-export default CFPPage;
+export default PapersPage;

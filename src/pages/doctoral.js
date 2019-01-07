@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import cautiousDog from "../images/cautious-dog.svg";
+import Sponsors from "../components/sponsors";
+import Layout from '../components/layout'
 
-const CFPPage = () => (
-  <div className="flex flex-col md:flex-row items-center">
+const DoctoralPage = () => (
+<Layout>
+<div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
       <h1>Doctoral Colloquium</h1>
@@ -58,8 +60,7 @@ It is planned that each student will be allocated a 20-minute time slot, with 15
 
     </div>
  </div>
-
-  
+  </Layout>
 );
 
-export default CFPPage;
+export default DoctoralPage;

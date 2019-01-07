@@ -1,5 +1,13 @@
-import React from "react";
-import Link from "gatsby-link";
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
+
+const handleClick = ev => {
+  ev.preventDefault()
+  const element = document.getElementById('nav')
+  element.classList.toggle('block')
+  element.classList.toggle('hidden')
+}
 
 const Header = () => {
   const handleClick = function(e) {
@@ -82,4 +90,12 @@ const Header = () => {
   );
 };
 
-export default Header;
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
+}
+
+export default Header
