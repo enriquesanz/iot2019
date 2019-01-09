@@ -11,11 +11,23 @@ const CommitteePage = () => (
           <h1>Committee</h1>
         </p>
         <p className="font-serif leading-loose pl-4 text-justify">
-          <h2>Conference Chairs:</h2>
-            <ul>
-              <li>Diego López de Ipiña (University of Deusto, Spain)</li>
-              <li>Kyriakos G. Vamvoudakis (Georgia Institute of Technology, USA)</li>
-            </ul>
+          <h2 className="text-teal">Conference Chairs:</h2>
+
+          <div className="flex items-center">
+            <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Diego López de Ipiña" />
+            <div className="text-sm">
+              <p className="text-black leading-none text-lg">Diego López de Ipiña</p>
+              <p className="text-grey-dark">University of Deusto, Spain</p>
+            </div>
+          </div>
+          <br />
+          <div className="flex items-center">
+          <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Kyriakos G. Vamvoudakis" />
+            <div className="text-sm">
+              <p className="text-black leading-none text-lg">Kyriakos G. Vamvoudakis</p>
+              <p className="text-grey-dark">Georgia Institute of Technology, USA</p>
+            </div>
+          </div>
 
           <h2>Technical Program Chairs:</h2>
             <ul>

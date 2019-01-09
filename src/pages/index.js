@@ -63,7 +63,7 @@ const IndexPage = () => (
       </ul>
       </p>
       <br /><br /><br /><br /><br />
-      <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify">
+      <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify ">
       <h3>Previous IoT conferences:</h3>
       <ul className="sm:list-reset">
         <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank">IoT 2018</a></strong> (Santa Barbara, USA)</li>

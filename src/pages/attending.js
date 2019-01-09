@@ -16,7 +16,7 @@ const AttendingPage = () => (
         <img src={Deusto} />
 
         <p className="font-serif leading-loose pl-4 text-justify">
-           <h2> About the university </h2>
+           <h2 className="text-teal"> About the university </h2>
               
               The University of Deusto was inaugurated in 1886.  The central headquarters of the University of Deusto is located on the opposite side of the estuary, facing the Bilbao Guggenheim Museum, an emblematic symbol of the significant transformation of Bilbao during the last three decades.
               -- <a href="https://www.deusto.es/cs/Satellite/deusto/en/university-deusto?cambioidioma=si">Website</a> --
@@ -24,14 +24,14 @@ const AttendingPage = () => (
         </p>
 
         <p className="font-serif leading-loose pl-4 text-justify">
-           <h2> About the city </h2>
+           <h2 className="text-teal"> About the city </h2>
               
               Nowadays, Bilbao is the centre of a metropolitan area with more than one million inhabitants, a city traditionally open to Europe. Bilbao is a city with plenty of charisma and personality; traditional and avantgarde at the same time. From the narrow streets of the Casco Viejo [Old Town] to the Gran Vía and the New Bilbao, there is a whole world of history and legends that have turned the small port on the banks of the river into a world benchmark. A friendly space for those who are interested in innovation, architecture, art, technology, design, leisure, gastronomy and culture.
 
         </p>
 
          <p className="font-serif leading-loose pl-4 text-justify">
-           <h2> Hotels </h2>
+           <h2 className="text-teal"> Hotels </h2>
               
               Bilbao  is a tourist centre and convention city, and thus offers a large variety of hotel suitable for any budget, either  within easy walking distance of the conference site or easily reachable with a short bus or tram ride.
               <br />
@@ -44,7 +44,9 @@ const AttendingPage = () => (
 
       </div>
     </div>
+
     <p>
+    <br /><br /><br /><br />
         <Publishers />
         <Sponsors />
       </p>
