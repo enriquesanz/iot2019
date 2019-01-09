@@ -56,19 +56,24 @@ const IndexPage = () => (
     <div className="md:w-2/3 md:mr-8">
       <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify">
       <h3>Paper Submission Key Dates:</h3>
-      <ul className="list-restet">
-        <li><strong>Paper submission deadline:</strong> Friday, May 3, 2019</li>
-        <li><strong>Papers camera ready deadline:</strong> Thursday, July 4, 2019</li>
-        <li><strong>Conference:</strong> October 22-25, 2019</li>
+      <ul >
+        <li><strong>Paper submission deadline:</strong><br/> Friday, May 3, 2019</li>
+        <li><strong>Papers camera ready deadline:</strong><br/> Thursday, July 4, 2019</li>
+        <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
       </ul>
       </p>
-      <br />
+      <br /><br /><br /><br /><br />
       <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify">
-      <h3>Paper Submission Key Dates:</h3>
-      <ul className="list-restet">
-        <li><strong>Paper submission deadline:</strong> Friday, May 3, 2019</li>
-        <li><strong>Papers camera ready deadline:</strong> Thursday, July 4, 2019</li>
-        <li><strong>Conference:</strong> October 22-25, 2019</li>
+      <h3>Previous IoT conferences:</h3>
+      <ul className="sm:list-reset">
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank">IoT 2018</a></strong> (Santa Barbara, USA)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2017/" target="_blank">IoT 2017</a></strong> (Linz, Austria)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2016/" target="_blank">IoT 2016</a></strong> (Stuttgart, Germany)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2015/" target="_blank">IoT 2015</a></strong> (Coex, Seoul, S. Korea)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2014/" target="_blank">IoT 2014</a></strong> (MIT, Cambridge, USA)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2012/" target="_blank">IoT 2012</a></strong> (Wuxi, China)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2010/" target="_blank">IoT 2010</a></strong> (Tokio, Japan)</li>
+        <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2008/" target="_blank">IoT 2008</a></strong> (Zurich, Switzerland)</li>
       </ul>
       </p>
 
