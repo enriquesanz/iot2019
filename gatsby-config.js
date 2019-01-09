@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `IoT Conference 2019`,
+    description: `Bilbao IoT Conference 2019`,
+    author: `@enriquesanz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
