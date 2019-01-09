@@ -21,7 +21,7 @@ const CFPPage = () => (
       <div className="flex">
       <p className="font-serif leading-loose pl-4">
       
-      <a href="/papers"><h2>Full and short papers</h2></a>
+      <a class="no-underline text-teal" href="/papers"><h2>Full and short papers</h2></a>
         <ul>
           <li>Submissions: Friday, May 3, 2019</li>
           <li>Notifications: Friday, June 21, 2019 </li>
@@ -29,7 +29,7 @@ const CFPPage = () => (
         </ul>
 
 
-          <a href="/wips"><h2>WiPs and Demos</h2></a>
+          <a class="no-underline text-teal" href="/wips"><h2>WiPs and Demos</h2></a>
           <ul>
             <li>Due: June 28, 2019</li>
             <li>Notifications: July 30, 2019</li>
@@ -40,14 +40,14 @@ const CFPPage = () => (
 
       <p className="font-serif leading-loose pl-4">
 
-          <a href="/doctoral"><h2>Doctoral consortium</h2></a>
+          <a class="no-underline text-teal" href="/doctoral"><h2>Doctoral consortium</h2></a>
           <ul>
             <li>Due: Friday, June 28, 2019</li>
             <li>Notifications: July 16, 2019</li>
             <li>Camera Ready: July 30, 2019</li>
             </ul>
 
-          <a href="/workshops"><h2>Workshops proposals</h2></a>
+          <a class="no-underline text-teal" href="/workshops"><h2>Workshops proposals</h2></a>
           <ul>
             <li>Proposals Due: March 25, 2019</li>
             <li>Notifications: April 12, 2019</li>
