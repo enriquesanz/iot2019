@@ -11,6 +11,15 @@ const AboutPage = () => (
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
     />
 
+
+    <div className="flex items-center">
+      <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Jonathan Reinink" />
+      <div className="text-sm">
+        <p className="text-black leading-none text-xl">Diego López de Ipiña</p>
+        <p className="text-grey-dark">University of Deusto, Spain</p>
+      </div>
+    </div>
+
     <div className="flex flex-col md:flex-row items-center">
       <div className="md:w-2/3 md:mr-8">
         <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
