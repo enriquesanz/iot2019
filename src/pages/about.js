@@ -8,7 +8,7 @@ const AboutPage = () => (
   <Layout>
     <SEO
       title="About"
-      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+      keywords={[`iot2019`, `conference`, `iot` ]}
     />
 
 

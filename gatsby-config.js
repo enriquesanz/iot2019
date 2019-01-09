@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/iot2019`,
   siteMetadata: {
     title: `IoT Conference 2019`,
     description: `Bilbao IoT Conference 2019`,
