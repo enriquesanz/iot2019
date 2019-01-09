@@ -62,7 +62,20 @@ const IndexPage = () => (
         <li><strong>Conference:</strong> October 22-25, 2019</li>
       </ul>
       </p>
+      <br />
+      <p className="border-l-4 border-green font-serif leading-loose pl-4 text-justify">
+      <h3>Paper Submission Key Dates:</h3>
+      <ul className="list-restet">
+        <li><strong>Paper submission deadline:</strong> Friday, May 3, 2019</li>
+        <li><strong>Papers camera ready deadline:</strong> Thursday, July 4, 2019</li>
+        <li><strong>Conference:</strong> October 22-25, 2019</li>
+      </ul>
+      </p>
+
     </div>
+
+
+    
     </div>
     <br/>
     <p>
