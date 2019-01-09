@@ -11,6 +11,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import GatsbyLink from "gatsby-link";
 import Sponsors from "../components/sponsors";
+import Publishers from "../components/publishers";
 
 const IndexPage = () => (
   <Layout>
@@ -66,13 +67,7 @@ const IndexPage = () => (
     <br/>
     <p>
 
-    <div className="flex bg-grey-lighter">
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={ACM} /></div>
-      <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={CHI} /></div>
-      {/*<div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src={ICPS} /></div>*/}
-    </div>
-
-
+    <Publishers />
     <Sponsors />
 
     </p>

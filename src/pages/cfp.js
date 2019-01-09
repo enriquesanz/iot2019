@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Sponsors from "../components/sponsors";
+import Publishers from "../components/publishers";
 import Layout from '../components/layout'
 
 const CFPPage = () => (
@@ -50,7 +51,7 @@ const CFPPage = () => (
           <ul>
             <li>Proposals Due: March 25, 2019</li>
             <li>Notifications: April 12, 2019</li>
-            <li>Camera Ready(online-information in web): April 30, 2019</li>
+            <li>Camera Ready (online in web): April 30, 2019</li>
           </ul>
 
 
