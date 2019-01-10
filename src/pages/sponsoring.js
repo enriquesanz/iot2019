@@ -10,11 +10,13 @@ const AboutPage = () => (
 
     <div className="flex flex-col md:flex-row">
       <div className="md:w-2/3 md:mr-8">
-        <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
+        <p className="border-l-4 border-red-light font-sans leading-normal pl-4 text-lg text-justify">
+          <h1 className="text-grey-darker font-serif">Sponsoring</h1>
           The International Conference on the Internet of Things offers a unique opportunity for organizations to introduce their latest products and research, gain feedback and establish collaborative relationships with an international audience of technical and business leaders in the Internet of Things (IoT) field. We sincerely look forward to your participation and support. 
           <br/><br/>
           We offer five corporate support levels: Platinum, Gold, Silver, and Bronze
           
+          <br/>
           <br/>
           Sponsors should contact IoT2019 organizing chair by email (<strong>iot2019@deusto.es</strong>).
 
@@ -24,18 +26,15 @@ const AboutPage = () => (
       </div>
 
     <p>
+    
 
-     <h3>Sponsors</h3>
-
-        <div className="flex flex-col bg-grey-lighter">
-          <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" /></div>
-          <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" /></div>
-          <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" /></div>
-          <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" /></div>
-         
-        </div>
-
-
+      <div className="flex flex-col bg-grey-lighter">
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" /></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" /></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" /></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" /></div>
+       
+      </div>
     </p>
     </div>
   </Layout>

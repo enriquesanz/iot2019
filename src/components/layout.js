@@ -24,11 +24,11 @@ const Layout = ({ children }) => (
           {children}
         </div>
 
-        <footer className="bg-blue">
+        <footer className="bg-red-light">
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
           <p className="text-white">
             Web desing and development{" "}
-              Enrique Sanz & Diego Casado
+              Enrique Sanz & Anne M. Irizar & Diego Casado
           </p>
 
           <p>

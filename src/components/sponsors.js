@@ -5,7 +5,10 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const Sponsors = () => (
     <div>
-        <h3>Sponsors</h3>
+        
+        <p className="flex justify-center">
+            <h3 className="font-serif text-grey-darker">Sponsors</h3>
+        </p>
 
         <div className="flex bg-grey-lighter">
                 <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" /></div>
