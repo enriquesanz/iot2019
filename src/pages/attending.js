@@ -1,5 +1,6 @@
 import React from 'react'
 import Deusto from "../images/deusto.jpg";
+import Hotels from "../images/hotels.jpg";
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
@@ -40,9 +41,12 @@ const AttendingPage = () => (
 
 
         </p>
-
-
+      <br />
+      <p className="flex justify-center">
+        <img src={Hotels} />
+      </p>
       </div>
+
     </div>
 
     <p>

@@ -8,8 +8,9 @@ const CommitteePage = () => (
     <div className="flex flex-col md:flex-row items-center">
       <div className="md:w-2/3 md:mr-8">
         <p className="border-l-4 border-grey-darkest font-serif leading-loose pl-4 text-justify">
-          <h1>Committee</h1>
+          <h1>Organizer Committee</h1>
         </p>
+        <br />
         <p className="font-serif leading-loose pl-4 text-justify">
           <h2 className="text-teal">Conference Chairs:</h2>
 
@@ -28,61 +29,164 @@ const CommitteePage = () => (
               <p className="text-grey-dark">Georgia Institute of Technology, USA</p>
             </div>
           </div>
+          <br />
+          <h2 className="text-teal">Technical Program Chairs:</h2>
+          <div className="flex items-center">
+            <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Karin Anna Hummel" />
+            <div className="text-sm">
+              <p className="text-black leading-none text-lg">Karin Anna Hummel</p>
+              <p className="text-grey-dark">JKU Linz, Austria</p>
+            </div>
+          </div>
+          <br />
+          <div className="flex items-center">
+          <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of David Boyle" />
+            <div className="text-sm">
+              <p className="text-black leading-none text-lg">David Boyle</p>
+              <p className="text-grey-dark">Imperial College, UK</p>
+            </div>
+          </div>
+          <br />
+          <div className="flex items-center">
+          <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Matthias Kovatsch" />
+            <div className="text-sm">
+              <p className="text-black leading-none text-lg">Matthias Kovatsch</p>
+              <p className="text-grey-dark">Huawei, Germany</p>
+            </div>
+          </div>
 
-          <h2>Technical Program Chairs:</h2>
-            <ul>
-              <li>Karin Anna Hummel (JKU Linz, Austria)</li>
-              <li>David Boyle (Imperial College, UK)</li>
-              <li>Matthias Kovatsch (Huawei, Germany)</li>
-            </ul>
+          <br />
+          <h2 className="text-teal">Demo/Poster Chair:</h2>
 
-          <h2>Demo/Poster Chair:</h2>
-            <ul>
-              <li>Kimberly Garcia (Siemens, USA)</li>
-              <li>Frank A. Kraemer (NTNU, Norway)</li>
-            </ul>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Kimberly Garcia" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg"></p>
+                <p className="text-grey-dark">Siemens, USA</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Frank A. Kraemer" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Frank A. Kraemer</p>
+                <p className="text-grey-dark">NTNU, Norway</p>
+              </div>
+            </div>
 
-          <h2>Workshop Chairs:</h2>
-            <ul>
-              <li>Antonio Jara (HES-SO, Switzerland)</li>
-              <li>J. Martin Serrano (Insight NUI Galway, Ireland)</li>
-            </ul>
+          <br />
+          <h2 className="text-teal">Workshop Chairs:</h2>
 
-          <h2>Doctoral Colloquium Chairs:</h2>
-            <ul>
-              <li>Iñaki Vazquez (University of Deusto, Spain)</li>
-              <li>Simon Mayer (University of St. Gallen, Switzerland)</li>
-            </ul>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Antonio Jara" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Antonio Jara</p>
+                <p className="text-grey-dark">HES-SO, Switzerland</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of J. Martin Serrano" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">J. Martin Serrano</p>
+                <p className="text-grey-dark">Insight NUI Galway, Ireland</p>
+              </div>
+            </div>
 
-          <h2>Local Liaison Chair:</h2>
-            <ul>
-              <li>Diego Casado-Mansilla (University of Deusto, Spain)</li>
-            </ul>
+          <br /> 
+          <h2 className="text-teal">Doctoral Colloquium Chairs:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="https://morelab.deusto.es/media/persons/diego-lopez-de-ipina_JnzXjHd.jpg" alt="Avatar of Iñaki Vazquez" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Iñaki Vazquez</p>
+                <p className="text-grey-dark">University of Deusto, Spain</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Simon Mayer " />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Simon Mayer </p>
+                <p className="text-grey-dark">University of St. Gallen, Switzerland</p>
+              </div>
+            </div>
+            
+          <br />
+          <h2 className="text-teal">Local Arrangements Chair:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Diego Casado-Mansilla" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Diego Casado-Mansilla</p>
+                <p className="text-grey-dark">University of Deusto</p>
+              </div>
+            </div>
 
-          <h2>Industrial Chairs:</h2>
-            <ul>
-              <li>Josu Bilbao (Ikerlan, Spain)</li>
-              <li>TBA</li>
-            </ul>
+          <br />
+          <h2 className="text-teal">Industrial Chairs:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Josu Bilbao" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Josu Bilbao</p>
+                <p className="text-grey-dark">IK4-Ikerlan, Spain</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of TBA" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">TBA</p>
+                <p className="text-grey-dark"></p>
+              </div>
+            </div>
+          
+          <br />
+          <h2 className="text-teal">Spanish Assembly Chairs:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Aitor Urbieta" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Aitor Urbieta</p>
+                <p className="text-grey-dark">IK4-Ikerlan, Spain</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Felix Villanueva" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Felix Villanueva</p>
+                <p className="text-grey-dark">UCLM, Spain</p>
+              </div>
+            </div>
+            
+          <br />
+          <h2 className="text-teal">Web Chairs:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Enrique Sanz" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Enrique Sanz</p>
+                <p className="text-grey-dark">University of Deusto, Spain</p>
+              </div>
+            </div>
+            <br />
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of Anne M. Irizar" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">Anne M. Irizar</p>
+                <p className="text-grey-dark">University of Deusto, Spain</p>
+              </div>
+            </div>
+        
+          <br />  
+          <h2 className="text-teal">Publicity/Social Media Chairs:</h2>
+            <div className="flex items-center">
+              <img className="w-12 h-12 rounded-full mr-4" src="http://kyriakos.ae.gatech.edu/Vamvoudakis/Photo-0013or.jpg" alt="Avatar of TBA" />
+              <div className="text-sm">
+                <p className="text-black leading-none text-lg">TBA</p>
+                <p className="text-grey-dark"></p>
+              </div>
+            </div>
 
-          <h2>Spanish Assembly Chairs:</h2>
-            <ul>
-              <li>Aitor Urbieta (Ikerlan, Spain)</li>
-              <li>Felix Villanueva (UCLM, Spain)</li>
-            </ul>
-
-          <h2>Web Chairs:</h2>
-            <ul>
-              <li>Anne M. Irizar (University of Deusto, Spain)</li>
-              <li>Enrique Sanz (University of Deusto, Spain)</li>
-            </ul>
-
-          <h2>Publicity/Social Media Chairs:</h2>
-            <ul>
-              <li>TBA</li>
-            </ul>
-
-          <h2>Steering committee:</h2>
+          <br />
+          <h2 className="text-teal">Steering committee:</h2>
             <ul>
               <li>Kai Kunze (Keio University, Japan)</li>
               <li>Simon Mayer (Univ of St Gallen, Switzerland)</li>
@@ -98,8 +202,9 @@ const CommitteePage = () => (
 
         </p>
 
+        <br />
         <p className="font-serif leading-loose pl-4 text-justify">
-          <h2>Program Committee:</h2>
+          <h2 className="text-teal">Program Committee:</h2>
             <ul>
               <li>TBA</li>
             </ul>
