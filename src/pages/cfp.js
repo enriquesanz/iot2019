@@ -21,7 +21,7 @@ const CFPPage = () => (
       <div className="flex">
       <p className="font-sans leading-loose pl-20">
       
-      <a class="no-underline text-teal" href="/papers"><h2 className="font-serif">Full and short papers</h2></a>
+      <a class="no-underline text-teal hover:text-red-light" href="/papers"><h2 className="font-serif">Full and short papers</h2></a>
         <ul>
           <li>Submissions: Friday, May 3, 2019</li>
           <li>Notifications: Friday, June 21, 2019 </li>
@@ -29,7 +29,7 @@ const CFPPage = () => (
         </ul>
 
 
-          <a class="no-underline text-teal" href="/wips"><h2 className="font-serif">WiPs and Demos</h2></a>
+          <a class="no-underline text-teal hover:text-yellow-dark" href="/wips"><h2 className="font-serif">WiPs and Demos</h2></a>
           <ul>
             <li>Due: June 28, 2019</li>
             <li>Notifications: July 30, 2019</li>
@@ -40,14 +40,14 @@ const CFPPage = () => (
 
       <p className="font-sans leading-loose pl-20">
 
-          <a class="no-underline text-teal" href="/doctoral"><h2 className="font-serif">Doctoral consortium</h2></a>
+          <a class="no-underline text-teal hover:text-purple-light" href="/doctoral"><h2 className="font-serif">Doctoral consortium</h2></a>
           <ul>
             <li>Due: Friday, June 28, 2019</li>
             <li>Notifications: July 16, 2019</li>
             <li>Camera Ready: July 30, 2019</li>
             </ul>
 
-          <a class="no-underline text-teal" href="/workshops"><h2 className="font-serif">Workshops proposals</h2></a>
+          <a class="no-underline text-teal hover:text-green-light" href="/workshops"><h2 className="font-serif">Workshops proposals</h2></a>
           <ul>
             <li>Proposals Due: March 25, 2019</li>
             <li>Notifications: April 12, 2019</li>

@@ -25,7 +25,7 @@ import Ane from "../images/committee/ane.jpg";
 
 const CommitteePage = () => (
     <Layout>
-    <div className="flex flex-col md:flex-row items-center">
+    <div className="flex ">
       <div className="md:w-2/3 md:mr-8">
         <p className="border-l-4 border-red-light text-grey-darker font-serif leading-loose pl-4 text-justify ">
           <h1>Organizers</h1>
@@ -95,6 +95,7 @@ const CommitteePage = () => (
             </div>
 
           <br />
+
           <h2 className="text-teal">Workshop Chairs:</h2>
 
             <div className="flex items-center">
@@ -230,14 +231,16 @@ const CommitteePage = () => (
             </ul>
         </p>
         <br /><br />
-        <p>
+        
+      </div>
+      
+  </div>
+
+  <p>
           <Publishers />
           <Sponsors />
 
-        </p>
-      </div>
-  </div>
-
+      </p>
 
   </Layout>
 );

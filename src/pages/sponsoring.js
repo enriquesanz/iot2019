@@ -14,7 +14,7 @@ const AboutPage = () => (
           <h1 className="text-grey-darker font-serif">Sponsoring</h1>
           The International Conference on the Internet of Things offers a unique opportunity for organizations to introduce their latest products and research, gain feedback and establish collaborative relationships with an international audience of technical and business leaders in the Internet of Things (IoT) field. We sincerely look forward to your participation and support. 
           <br/><br/>
-          We offer five corporate support levels: Platinum, Gold, Silver, and Bronze
+          We offer five corporate support levels: Platinum, Gold, Silver, and Bronze. Our sponsorship packages range from €1,000 to €20,000 but we also customize them depending on your needs.
           
           <br/>
           <br/>

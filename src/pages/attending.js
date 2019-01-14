@@ -15,7 +15,7 @@ const AttendingPage = () => (
         <br />
         <p className="font-sans leading-normal text-xl text-justify">
           The conference and the workshops will take place at the University of Deusto.<br />
-          <strong>Address:</strong> Avenida de las universidades, 24 48007 Bilbao (Spain) - <a class="no-underline text-teal" href="https://www.google.es/maps/place/University+of+Deusto/@43.2712452,-2.9385576,15z/data=!4m2!3m1!1s0x0:0x6ea1bd3e8bae3141?ved=2ahUKEwiNnKbD7eDfAhXIxIUKHQ8DCAUQ_BIwDnoECAYQCA">Google Maps</a> -  
+          <strong>Address:</strong> Avenida de las universidades, 24 48007 Bilbao (Spain) - <a class="no-underline text-teal hover:font-bold" href="https://www.google.es/maps/place/University+of+Deusto/@43.2712452,-2.9385576,15z/data=!4m2!3m1!1s0x0:0x6ea1bd3e8bae3141?ved=2ahUKEwiNnKbD7eDfAhXIxIUKHQ8DCAUQ_BIwDnoECAYQCA" target="_blank">Google Maps</a> -  
         </p>
         <br /><br />
 
@@ -23,7 +23,7 @@ const AttendingPage = () => (
            <h2 className="text-teal"> About the university </h2>
               
               The University of Deusto was inaugurated in 1886.  The central headquarters of the University of Deusto is located on the opposite side of the estuary, facing the Bilbao Guggenheim Museum, an emblematic symbol of the significant transformation of Bilbao during the last three decades.
-              - <a class="no-underline text-teal" href="https://www.deusto.es/cs/Satellite/deusto/en/university-deusto?cambioidioma=si">Website</a> -
+              - <a class="no-underline text-teal hover:font-bold" href="https://www.deusto.es/cs/Satellite/deusto/en/university-deusto?cambioidioma=si" target="_blank">Website</a> -
 
         </p>
         <br />
