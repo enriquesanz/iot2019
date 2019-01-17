@@ -3,7 +3,6 @@ import Deusto from "../images/deusto.jpg";
 import Hotels from "../images/hotels.jpg";
 import Location from "../images/location.png";
 import Plane from "../images/byPlane.png";
-import BusTrain from "../images/busTrain.png";
 import HotelsTable from "../images/mapa.png";
 import HotelsMap from "../images/hotels.png";
 import Layout from '../components/layout'
@@ -47,10 +46,15 @@ const AttendingPage = () => (
            <h3 className="text-purple-light"> Location </h3>
            <img src={Location} />
            <h3 className="text-purple-light"> Transport </h3>
-           <img src={BusTrain} />
-           <img src={Plane} />
+           <ul className="sm:list-reset">
+             <li><strong className="text-grey-darker"> By bus:</strong> See this <a className="no-underline text-teal " href="http://www.termibus.es/lang/en/index.php" target="_blank">link </a> for complete information about companies, prices, timetables and the main cities served by bus. <strong className="text-grey-darker"> Tlf: +34 944 395 077</strong> </li>
+             <li><strong className="text-grey-darker"> By train:</strong> Bilbao can be reached by railway from France, the Netherlands, Belgium and Germany. Once delegates reach Hendaye by TGV, they just have to take the <a class="no-underline text-teal hover:font-bold" href="https://www.hendaye-tourisme.fr/en/traveller-information/travel-to-hendaye/by-train/" target="_blank">Topo-Train</a> to Irun and then take the bus from Irun to Bilbao. </li>
+             <li><strong className="text-grey-darker"> By plane:</strong> 2015 Destinations = 44 (Spain: 18 / Europe 26). Top 10 International: Germany 5 / U.K. 5 / italy: 3/ Switzerland: 2 / Portugal: 2 / France: 2 / Norway: 1 / Romania: 1 / Czech Republic: 1 / Belgium: 1. </li>
+             <li>A 20-minutes journey through the Artxanda tunnels or along the BI-631 road separate the Bilbao airport from the center of the city. The traveller has several options to reach the airport or downtown from there: Bus A3247 BILBAO-airport: operates every day of the year with services every 30 minutes.</li>
+           </ul>
 
         </p>
+        <img src={Plane} />
         <br /><br />
          <p className="font-sans leading-normal  text-lg text-justify">
            <h2 className="text-teal"> Hotels </h2>

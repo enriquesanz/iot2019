@@ -45,12 +45,15 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
       </ul>
       <br /><br />
       <h2 className="text-teal font-serif">Important Dates</h2>
-        <ul>
-            <li><strong>Due:</strong> June 28, 2019</li>
-            <li><strong>Notifications:</strong> July 30, 2019</li>
-            <li><strong>Camera Ready:</strong> September 2, 2019 </li>
-            <li><strong>Conference:</strong> October 22-25, 2019</li>
-        </ul>
+      <br/>
+        <p className="pl-4">
+          <ul className="sm:list-reset">
+            <li><strong className="text-grey-darker">Due:</strong> June 28, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 30, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready:</strong> September 2, 2019 </li>
+            <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
+          </ul>
+        </p>
       <br /><br />
       <h2 className="text-teal font-serif">Preparing and Submitting Your WiP or Demo:</h2>
         Researchers interested should submit a between 2 and 4-pages abstract in the most recent ACM SIGCHI Extended Abstracts Format including references. Papers have to be submitted via our EasyChair submission site conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere.

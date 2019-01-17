@@ -12,20 +12,19 @@ const PapersPage = () => (
       The International Conference on Internet of Things (IoT) has become the premier gathering place where visionary, ground-breaking research in the IoT field meets leading industry experts. Since its beginnings in the year 2008, IoT has been backed by strong support from leading academic institutions as well as industry and we are happy to announce its 9th iteration will take place from October 22-25th 2018 in Bilbao, Spain.
 <br />
 <br />
-The topic of this year edition will be Internet of Things for People which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. 
 
 In general terms, IoT 2019 is seeking for original, high impact research papers on all topics related to the development and social adoption of the Internet of Things. Papers will be reviewed and selected based on technical novelty, integrity of the analysis and social impacts and practical relevance.  Recommended topics of submission are as follows, but not limited to.
 
       <br />
       <br />
-      The topic of this year edition will be Internet of Things for People which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. 
+      <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. 
 
       </p>
 
     <br /><br />
 
     <div className="flex">
-      <p className="font-sans leading-normal pl-4 text-justify text-lg">
+      <p className="font-sans leading-normal pl-4 text-justify text-lg  ">
         <h2 className="text-teal font-serif">Topics</h2>
         <ul>
           <li><strong>Internet of Things Architecture:</strong> Novel information architecture design on field, edge, and cloud devices; object access and networking technology; investigation of technologies that support the mobility of functions and executions across system entities.</li>
@@ -48,12 +47,15 @@ In general terms, IoT 2019 is seeking for original, high impact research papers 
         </ul>
         <br /><br />
         <h2 className="text-teal font-serif">Important Dates</h2>
-          <ul>
-            <li><strong>Submissions:</strong> Friday, May 3, 2019</li>
-            <li><strong>Notifications:</strong> Friday, June 21, 2019</li>
-            <li><strong>Camera ready:</strong> Thursday, July 4, 2019</li>
-            <li><strong>Conference:</strong> October 22-25, 2019</li>
+        <br />
+        <p className="pl-4">
+          <ul className="sm:list-reset">
+            <li><strong className="text-grey-darker">Submissions:</strong> Friday, May 3, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> Friday, June 21, 2019</li>
+            <li><strong className="text-grey-darker">Camera ready:</strong> Thursday, July 4, 2019</li>
+            <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
           </ul>
+        </p>
         <br /><br />
         <h2 className="text-teal font-serif">Preparing and Submitting Your Papers:</h2>
         Papers have to be submitted via the EasyChair conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere. Papers should not exceed 8 pages, including figures and references. The paper layout should follow the SIGCHI Conference format. Papers are peer-reviewed by a committee of experts in the IoT field and selected based on technical novelty, integrity of the analysis, and practical relevance and impact. Accepted papers will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library. Selected papers will be invited to extend and improve their contributions to  Special Issues under consideration.

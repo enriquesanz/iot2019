@@ -60,7 +60,7 @@ const CommitteePage = () => (
           </div>
           <br />
           <div className="flex items-center">
-          <img className="w-12 h-12 rounded-full mr-4" src={David} alt="Avatar of David Boyle" />
+          <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of David Boyle" />
             <div className="text-sm">
               <p className="text-black leading-none text-lg font-sans">David Boyle</p>
               <p className="text-grey-dark">Imperial College, UK</p>
@@ -68,7 +68,7 @@ const CommitteePage = () => (
           </div>
           <br />
           <div className="flex items-center">
-          <img className="w-12 h-12 rounded-full mr-4" src={Matthias} alt="Avatar of Matthias Kovatsch" />
+          <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Matthias Kovatsch" />
             <div className="text-sm">
               <p className="text-black leading-none text-lg font-sans">Matthias Kovatsch</p>
               <p className="text-grey-dark">Huawei, Germany</p>
@@ -79,7 +79,7 @@ const CommitteePage = () => (
           <h2 className="text-teal">Demo/Poster Chair:</h2>
 
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src={Kimberly} alt="Avatar of Kimberly Garcia" />
+              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Kimberly Garcia" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans"> Kimberly Garcia</p>
                 <p className="text-grey-dark">Siemens, USA</p>
@@ -107,7 +107,7 @@ const CommitteePage = () => (
             </div>
             <br />
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src={Martin} alt="Avatar of J. Martin Serrano" />
+              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of J. Martin Serrano" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans">J. Martin Serrano</p>
                 <p className="text-grey-dark">Insight NUI Galway, Ireland</p>
@@ -171,7 +171,7 @@ const CommitteePage = () => (
             </div>
             <br />
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src={Felix} alt="Avatar of Felix Villanueva" />
+              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Felix Villanueva" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans">Felix Villanueva</p>
                 <p className="text-grey-dark">UCLM, Spain</p>

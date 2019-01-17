@@ -13,7 +13,9 @@ const CFPPage = () => (
       Driven by connected low-cost sensing and actuation and the large host of scientifically and economically relevant application scenarios that they enable, the Internet of Things has become a central research area with a broad reach across many fields in information technology and adjacent domains. The International Conference on Internet of Things (IoT) has become the premier gathering place where visionary, ground-breaking research in the IoT field meets leading industry experts. Since its beginnings in the year 2008, IoT has been backed by strong support from leading academic institutions as well as industry and we are happy to announce its 9th iteration will take place from October 22-25th 2018 in Bilbao, Spain.
       <br />
       <br />
-      The topic of this year edition will be Internet of Things for People which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. 
+      <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. Selected papers will be invited to extend and improve their contributions to Special Issues under consideration.
+      <br /><br />
+      In the following sections more information is provided about how to submit papers for the main conference (full/short papers, work-in-progress or Demos), workshops and doctoral consortium.
 
       </p>
 
@@ -23,17 +25,17 @@ const CFPPage = () => (
       
       <a class="no-underline text-teal hover:text-red-light" href="/papers"><h2 className="font-serif">Full and short papers</h2></a>
         <ul>
-          <li>Submissions: Friday, May 3, 2019</li>
-          <li>Notifications: Friday, June 21, 2019 </li>
-          <li>Camera ready: Thursday, July 4, 2019</li>
+          <li><strong className="text-grey-darker">Submissions:</strong> Friday, May 3, 2019</li>
+          <li><strong className="text-grey-darker">Notifications:</strong> Friday, June 21, 2019 </li>
+          <li><strong className="text-grey-darker">Camera ready:</strong> Thursday, July 4, 2019</li>
         </ul>
 
 
           <a class="no-underline text-teal hover:text-yellow-dark" href="/wips"><h2 className="font-serif">WiPs and Demos</h2></a>
           <ul>
-            <li>Due: June 28, 2019</li>
-            <li>Notifications: July 30, 2019</li>
-            <li>Camera Ready: September 2, 2019 </li>
+            <li><strong className="text-grey-darker">Due:</strong> June 28, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 30, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready:</strong> September 2, 2019 </li>
           </ul>
 
       </p>
@@ -42,16 +44,16 @@ const CFPPage = () => (
 
           <a class="no-underline text-teal hover:text-purple-light" href="/doctoral"><h2 className="font-serif">Doctoral consortium</h2></a>
           <ul>
-            <li>Due: Friday, June 28, 2019</li>
-            <li>Notifications: July 16, 2019</li>
-            <li>Camera Ready: July 30, 2019</li>
+            <li><strong className="text-grey-darker">Due:</strong> Friday, June 28, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
             </ul>
 
-          <a class="no-underline text-teal hover:text-green-light" href="/workshops"><h2 className="font-serif">Workshops proposals</h2></a>
+          <a class="no-underline text-teal hover:text-green-lighter" href="/workshops"><h2 className="font-serif">Workshops proposals</h2></a>
           <ul>
-            <li>Proposals Due: March 25, 2019</li>
-            <li>Notifications: April 12, 2019</li>
-            <li>Camera Ready (online in web): April 30, 2019</li>
+            <li><strong className="text-grey-darker">Proposals Due:</strong> March 25, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> April 12, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready (online in web):</strong> April 30, 2019</li>
           </ul>
 
 

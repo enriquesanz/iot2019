@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home"
-      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+      keywords={[`IoT`, `IoT Conference`, `UbiComp`, `Smart Objects`, `Bilbao`]}
     />
 
     <div className="text-center">
@@ -45,6 +45,8 @@ const IndexPage = () => (
         <p className="font-sans leading-normal text-lg text-justify">
         The Internet of Things Conference is seeking original, high impact research papers on all topics related to the development of the Internet of Things. Papers will be reviewed 
         and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance.
+        <br/><br/>
+        <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology.
         </p>
       </div>
       <div className="md:w-2/4 md:mr-8">
@@ -56,7 +58,7 @@ const IndexPage = () => (
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>
-        <br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
         
         <p className=" font-sans leading-loose  text-justify border-l-4 border-purple-light pl-4">
           <h4 className=" font-serif text-grey-darker">Previous IoT conferences:</h4>

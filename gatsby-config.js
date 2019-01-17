@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/iot2019`,
   siteMetadata: {
     title: `IoT Conference 2019`,
-    description: `Bilbao IoT Conference 2019`,
+    description: `The 9th International Conference on the Internet of Things (IoT 2019) in bilbao, Spain, building on the success of its predecessors since 2008, is the premier forum to share, discuss and witness cutting edge research in all areas of development for the Internet of Things.`,
     author: `@enriquesanz`,
   },
   plugins: [

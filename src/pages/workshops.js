@@ -6,7 +6,7 @@ const WorkshopsPage = () => (
     <Layout>
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
-      <p className="border-l-4 border-green-light font-sans leading-normal pl-4 text-justify text-lg">
+      <p className="border-l-4 border-green-lighter font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Workshop Proposals</h1>
       Workshops collocated with the 9th International Conference on the Internet of Things (IoT 2019) are opportunities to strengthen communities of researchers and practitioners working in specific topics related to the IoT. These events foster the exchange of new ideas, ongoing work, and latests results, in established or emerging sub-domains of interest. They are opportunities for IoT pioneers and practitioners in industry to share hands-on experience with IoT systems (use cases, deployments, architectures, etc.), and for researchers to present and receive feedback on early research result. Approved workshops and tutorials will be announced on the conference website.
 
@@ -27,7 +27,7 @@ const WorkshopsPage = () => (
           <li><strong>Interoperability of IoT Systems:</strong> Service discovery and composition, synchronization in distributed systems, overcoming siloization of IoT systems, semantic data description frameworks.</li>
           <li><strong>Description and Discovery of IoT devices, including mobile and moving devices:</strong> Ontologies and data models for the description and discovery of mobile systems and applications, including autonomous systems and wearable, urban or sensory computing devices.</li>
       </ul>
-      <p className="text-xl text-center text-green-light">~~~</p>
+      <p className="text-xl text-center text-green-lighter">~~~</p>
       <ul>
         <li><strong>Novel IoT Interactions:</strong> Novel methods and techniques for seamless human-to-object and object-to-object interactions, including, but not limited to brain, audible, tangible or augmented or mixed reality.</li>
           <li><strong>Object-objects Interactions:</strong> methods and protocols for co-operations and coordination among objects, social internet of things, trust among objects</li>
@@ -43,12 +43,15 @@ const WorkshopsPage = () => (
       </ul>
        <br /><br />
       <h2 className="text-teal font-serif">Important Dates</h2>
-        <ul>
-            <li><strong>Proposals Due:</strong> March 25, 2019</li>
-            <li><strong>Notifications:</strong> April 12, 2019</li>
-            <li><strong>Camera Ready(online-information in web):</strong> April 30, 2019</li>
-            <li><strong>Conference:</strong> October 22-25, 2019</li>
-        </ul>
+        <br/>
+        <p className="pl-4">
+          <ul className="sm:list-reset">
+            <li><strong className="text-grey-darker">Proposals Due:</strong> March 25, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> April 12, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready (online-information in web):</strong> April 30, 2019</li>
+            <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
+          </ul>
+        </p>
 
          <br /><br />
         <h2 className="text-teal font-serif">Review Criteria:</h2>

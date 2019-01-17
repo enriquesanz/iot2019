@@ -12,7 +12,7 @@ const DoctoralPage = () => (
       The Doctoral Consortium is a special session of the conference where PhD students in the early phases of their research can receive advice in a constructive atmosphere. Students present and discuss their research with other PhD students and a panel of established researchers in the area of Internet of Things.
 <br />
       The topic of this year edition will be Internet of Things for People which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. 
-<br />
+<br /><br />
 In general terms, IoT 2019 is seeking for original, high impact research ideas on all topics related to the development and social adoption of the Internet of Things.  Recommended topics of submission are as follows, but not limited to.
       <br />
       </p>
@@ -43,12 +43,15 @@ In general terms, IoT 2019 is seeking for original, high impact research ideas o
       </ul>
        <br /><br />
       <h2 className="text-teal font-serif">Important Dates</h2>
-        <ul>
-            <li><strong>Due:</strong> Friday, June 28, 2019</li>
-            <li><strong>Notifications:</strong> July 16, 2019</li>
-            <li><strong>Camera Ready:</strong> July 30, 2019</li>
-            <li><strong>Conference:</strong>  October 22-25, 2019</li>
+      <br/>
+        <p className="pl-4">
+          <ul className="sm:list-reset">
+            <li><strong className="text-grey-darker">Due:</strong> Friday, June 28, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
+            <li><strong className="text-grey-darker">Conference:</strong>  October 22-25, 2019</li>
         </ul>
+        </p>
          <br /><br />
         <h2 className="text-teal font-serif">Preparing and Submitting Your PhD proposal:</h2>
         Students interested in participating in the Doctoral Consortium should submit a 4-page abstract in ACM SIGCHI Extended Abstracts Format describing in English their research question, its position with respect to the state of the art, their research plans and methodology, ideas, and results achieved so far. Accepted abstracts will be included in the adjunct conference proceedings (unless opted out by the student).

@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
         <footer className="bg-teal">
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
           <p className="text-white">
-            Web desing and development{" "}
+            Web design and development{" "}
               Enrique Sanz & Anne M. Irizar & Diego Casado
           </p>
 
