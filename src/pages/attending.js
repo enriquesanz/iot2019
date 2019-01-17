@@ -1,9 +1,15 @@
 import React from 'react'
 import Deusto from "../images/deusto.jpg";
 import Hotels from "../images/hotels.jpg";
+import Location from "../images/location.png";
+import Plane from "../images/byPlane.png";
+import BusTrain from "../images/busTrain.png";
+import HotelsTable from "../images/mapa.png";
+import HotelsMap from "../images/hotels.png";
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
+
 
 const AttendingPage = () => (
   <Layout>
@@ -38,10 +44,13 @@ const AttendingPage = () => (
         <br /><br />
         <p className="font-sans leading-normal  text-lg text-justify">
            <h2 className="text-teal"> Arriving </h2>
-            
+           <h3 className="text-purple-light"> Location </h3>
+           <img src={Location} />
+           <h3 className="text-purple-light"> Transport </h3>
+           <img src={BusTrain} />
+           <img src={Plane} />
 
         </p>
-        <img src={Hotels} />
         <br /><br />
          <p className="font-sans leading-normal  text-lg text-justify">
            <h2 className="text-teal"> Hotels </h2>
@@ -51,9 +60,12 @@ const AttendingPage = () => (
 
             The Organizing Committee will secure preferential rates for the Conference participants. You will be able to view more information and book your accommodation through the online registration system in the near future. A few examples of the hotels around are given below:
 
-
         </p>
+
       <br />
+
+      <img src={HotelsTable} />
+      <img src={HotelsMap} />
       
       </div>
 

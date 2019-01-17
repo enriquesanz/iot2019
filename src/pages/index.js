@@ -48,7 +48,7 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="md:w-2/4 md:mr-8">
-        <p className="border-l-4 border-yellow-dark font-sans leading-loose pl-4 text-justify">
+        <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-justify">
         <h3 className=" font-serif text-grey-darker">Paper Submission Key Dates:</h3>
         <ul className="sm:list-reset">
           <li><strong>Paper submission deadline:</strong><br/> Friday, May 3, 2019</li>
@@ -58,7 +58,7 @@ const IndexPage = () => (
         </p>
         <br /><br /><br />
         
-        <p className=" font-sans leading-loose  text-justify border-l-4 border-yellow-dark pl-4">
+        <p className=" font-sans leading-loose  text-justify border-l-4 border-purple-light pl-4">
           <h4 className=" font-serif text-grey-darker">Previous IoT conferences:</h4>
           <ul className="sm:list-reset">
             <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank">IoT 2018</a></strong> (Santa Barbara, USA)</li>

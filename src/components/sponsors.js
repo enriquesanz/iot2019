@@ -18,9 +18,9 @@ const Sponsors = () => (
         </div>
 
         <div className="flex bg-grey-lighter">
-            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaFacebookF /></div>
-            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaTwitter /></div>
-            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2">< FaLinkedinIn /></div>
+            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.facebook.com/Iot-conference-2019-348587342715269/" target="_blank">< FaFacebookF /></a></div>
+            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><a class="no-underline hover:border-purple-light" href="https://twitter.com/iot2019" target="_blank">< FaTwitter /></a></div>
+            <div className="flex-1 text-grey-darker text-center bg-grey-light px-30 py-2 m-2"><a class="no-underline hover:border-purple-light" href="http://www.google.es" target="_blank">< FaLinkedinIn /></a></div>
         </div>
 
   </div>
