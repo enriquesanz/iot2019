@@ -1,9 +1,13 @@
 import React from "react";
-import Link from "gatsby-link";
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const WipsPage = () => (
     <Layout>
+    <SEO
+      title="WiPs"
+      keywords={[`iot2019`, `conference`, `iot` ]}
+    />
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-yellow-dark font-sans leading-normal pl-4 text-justify text-lg">

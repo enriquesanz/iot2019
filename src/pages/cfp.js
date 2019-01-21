@@ -1,11 +1,15 @@
 import React from "react";
-import Link from "gatsby-link";
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const CFPPage = () => (
 <Layout>
+  <SEO
+      title="CFP"
+      keywords={[`iot2019`, `conference`, `iot` ]}
+    />
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-red-light  font-sans leading-normal text-lg pl-4 text-justify">
@@ -59,8 +63,9 @@ const CFPPage = () => (
 
       </p>      
       </div>
+      <br/><br/>
       <p>
-          <Publishers />
+          {/*<Publishers />*/}
           <Sponsors />
 
       </p>

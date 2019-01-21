@@ -1,14 +1,7 @@
 import React from 'react'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Index from "../images/index_resize.png";
-import ACM from "../images/acm.png";
-import CHI from "../images/chi.png";
-import ICPS from "../images/icps.jpg";
-import { FaTwitter } from 'react-icons/fa';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
 import GatsbyLink from "gatsby-link";
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
@@ -63,22 +56,22 @@ const IndexPage = () => (
         <p className=" font-sans leading-loose  text-justify border-l-4 border-purple-light pl-4">
           <h4 className=" font-serif text-grey-darker">Previous IoT conferences:</h4>
           <ul className="sm:list-reset">
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank">IoT 2018</a></strong> (Santa Barbara, USA)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2017/" target="_blank">IoT 2017</a></strong> (Linz, Austria)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2016/" target="_blank">IoT 2016</a></strong> (Stuttgart, Germany)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2015/" target="_blank">IoT 2015</a></strong> (Coex, Seoul, S. Korea)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2014/" target="_blank">IoT 2014</a></strong> (MIT, Cambridge, USA)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2012/" target="_blank">IoT 2012</a></strong> (Wuxi, China)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2010/" target="_blank">IoT 2010</a></strong> (Tokio, Japan)</li>
-            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2008/" target="_blank">IoT 2008</a></strong> (Zurich, Switzerland)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank" rel="noopener noreferrer">IoT 2018</a></strong> (Santa Barbara, USA)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2017/" target="_blank" rel="noopener noreferrer">IoT 2017</a></strong> (Linz, Austria)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2016/" target="_blank" rel="noopener noreferrer">IoT 2016</a></strong> (Stuttgart, Germany)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2015/" target="_blank" rel="noopener noreferrer">IoT 2015</a></strong> (Seoul, S. Korea)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2014/" target="_blank" rel="noopener noreferrer">IoT 2014</a></strong> (Cambridge, USA)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2012/" target="_blank" rel="noopener noreferrer">IoT 2012</a></strong> (Wuxi, China)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2010/" target="_blank" rel="noopener noreferrer">IoT 2010</a></strong> (Tokio, Japan)</li>
+            <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2008/" target="_blank" rel="noopener noreferrer">IoT 2008</a></strong> (Zurich, Switzerland)</li>
           </ul>
         </p>
       </div>
     </div>
-    <br/>
+    <br/><br/>
     <p>
     
-    <Publishers />
+    {/*<Publishers />*/}
     <Sponsors />
 
     </p>

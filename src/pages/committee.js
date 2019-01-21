@@ -1,5 +1,5 @@
 import React from "react";
-
+import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
@@ -25,6 +25,10 @@ import Ane from "../images/committee/ane.jpg";
 
 const CommitteePage = () => (
     <Layout>
+    <SEO
+      title="Committee"
+      keywords={[`iot2019`, `conference`, `iot` ]}
+    />
     <div className="flex ">
       <div className="md:w-2/3 md:mr-8">
         <p className="border-l-4 border-red-light text-grey-darker font-serif leading-loose pl-4 text-justify ">
@@ -235,12 +239,12 @@ const CommitteePage = () => (
       </div>
       
   </div>
-
+  <br/><br/>
   <p>
-          <Publishers />
+         {/* <Publishers />*/}
           <Sponsors />
 
-      </p>
+  </p>
 
   </Layout>
 );
