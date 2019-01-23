@@ -64,7 +64,7 @@ const CommitteePage = () => (
           </div>
           <br />
           <div className="flex items-center">
-          <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of David Boyle" />
+          <img className="w-12 h-12 rounded-full mr-4" src={David} alt="Avatar of David Boyle" />
             <div className="text-sm">
               <p className="text-black leading-none text-lg font-sans">David Boyle</p>
               <p className="text-grey-dark">Imperial College, UK</p>
