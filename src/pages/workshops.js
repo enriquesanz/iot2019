@@ -72,7 +72,7 @@ const WorkshopsPage = () => (
 
         <br /><br />
         <h3 className="text-teal font-serif">Workshop proposals:</h3>
-        Submissions should be submitted via EasyChair as a 200 words abstract, along with a single PDF file of 4 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format including references, containing the following section:
+        Submissions should be submitted via <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> as a 200 words abstract, along with a single PDF file of 4 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format including references, containing the following section:
 
         <ul>
             <li>Title, acronym, potentially logo</li>

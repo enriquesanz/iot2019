@@ -15,12 +15,12 @@ const IndexPage = () => (
 
     <div className="text-center">
     <section> 
-        <img src={Index} />
+        <img src={Index} alt="9th International Conference on the Internet of Things (IoT 2019)"/>
     </section>
 
     <br/>
     <div className="flex">
-      <div className="md:w-3/4 md:mr-8">
+      <div className="md:w-4/5 md:mr-8">
         <p className="font-sans leading-normal text-lg text-justify">
         
         The 9th International Conference on the Internet of Things (IoT 2019), building on the success of its predecessors since 2008, is the premier forum  to share, 
@@ -42,9 +42,9 @@ const IndexPage = () => (
         <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology.
         </p>
       </div>
-      <div className="md:w-2/4 md:mr-8">
-        <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-justify">
-        <h3 className=" font-serif text-grey-darker">Paper Submission Key Dates:</h3>
+      <div className="md:w-1/3 md:mr-8">
+        <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
+        <h4 className="font-serif text-grey-darker">Submission Key Dates:</h4>
         <ul className="sm:list-reset">
           <li><strong>Paper submission deadline:</strong><br/> Friday, May 3, 2019</li>
           <li><strong>Papers camera ready deadline:</strong><br/> Thursday, July 4, 2019</li>
@@ -53,7 +53,7 @@ const IndexPage = () => (
         </p>
         <br /><br /><br /><br /><br /><br />
         
-        <p className=" font-sans leading-loose  text-justify border-l-4 border-purple-light pl-4">
+        <p className=" font-sans leading-loose text-left border-l-4 border-purple-light pl-4">
           <h4 className=" font-serif text-grey-darker">Previous IoT conferences:</h4>
           <ul className="sm:list-reset">
             <li><strong><a class="no-underline text-teal" href="https://iot-conference.org/iot2018/" target="_blank" rel="noopener noreferrer">IoT 2018</a></strong> (Santa Barbara, USA)</li>

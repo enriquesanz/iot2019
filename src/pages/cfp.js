@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
 import Layout from '../components/layout'
@@ -19,7 +20,7 @@ const CFPPage = () => (
       <br />
       <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology. Selected papers will be invited to extend and improve their contributions to Special Issues under consideration.
       <br /><br />
-      In the following sections more information is provided about how to submit papers for the main conference (full/short papers, work-in-progress or Demos), workshops and doctoral consortium.
+      In the following sections more information is provided about how to submit papers for the main conference (full/short papers, work-in-progress or demos), workshops and doctoral consortium.
 
       </p>
 
@@ -27,15 +28,27 @@ const CFPPage = () => (
       <div className="flex">
       <p className="font-sans leading-loose pl-20">
       
-      <a class="no-underline text-teal hover:text-red-light" href="papers"><h2 className="font-serif">Full and short papers</h2></a>
+      <Link
+              to="/papers"
+              className="no-underline text-teal hover:text-red-light"
+            >
+              <h2 className="font-serif">Full and short papers</h2>
+      </Link>
+
+      
         <ul>
           <li><strong className="text-grey-darker">Submissions:</strong> Friday, May 3, 2019</li>
           <li><strong className="text-grey-darker">Notifications:</strong> Friday, June 21, 2019 </li>
           <li><strong className="text-grey-darker">Camera ready:</strong> Thursday, July 4, 2019</li>
         </ul>
 
+      <Link
+              to="/wips"
+              className="no-underline text-teal hover:text-red-light"
+            >
+              <h2 className="font-serif">WiPs and Demos</h2>
+      </Link>
 
-          <a class="no-underline text-teal hover:text-yellow-dark" href="wips"><h2 className="font-serif">WiPs and Demos</h2></a>
           <ul>
             <li><strong className="text-grey-darker">Due:</strong> June 28, 2019</li>
             <li><strong className="text-grey-darker">Notifications:</strong> July 30, 2019</li>
@@ -46,14 +59,26 @@ const CFPPage = () => (
 
       <p className="font-sans leading-loose pl-20">
 
-          <a class="no-underline text-teal hover:text-purple-light" href="doctoral"><h2 className="font-serif">Doctoral consortium</h2></a>
+        <Link
+              to="/doctoral"
+              className="no-underline text-teal hover:text-red-light"
+            >
+              <h2 className="font-serif">Doctoral consortium</h2>
+        </Link>
+      
           <ul>
             <li><strong className="text-grey-darker">Due:</strong> Friday, June 28, 2019</li>
             <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
             </ul>
 
-          <a class="no-underline text-teal hover:text-green-lighter" href="workshops"><h2 className="font-serif">Workshops proposals</h2></a>
+        <Link
+              to="/workshops"
+              className="no-underline text-teal hover:text-red-light"
+            >
+              <h2 className="font-serif">Workshops proposals</h2>
+        </Link>
+
           <ul>
             <li><strong className="text-grey-darker">Proposals Due:</strong> March 25, 2019</li>
             <li><strong className="text-grey-darker">Notifications:</strong> April 12, 2019</li>

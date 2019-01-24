@@ -35,10 +35,10 @@ const AboutPage = () => (
     
 
       <div className="flex flex-col bg-grey-lighter">
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" /></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" /></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" /></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" /></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" alt="Platinium"/></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
+        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
        
       </div>
     </p>

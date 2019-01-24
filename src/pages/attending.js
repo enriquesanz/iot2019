@@ -36,7 +36,7 @@ const AttendingPage = () => (
 
         </p>
         <br />
-        <img src={Deusto} />
+        <img src={Deusto} alt="University of Deusto"/>
         <br /><br />
         <p className="font-sans leading-normal text-lg text-justify">
            <h2 className="text-teal"> About the city </h2>
@@ -48,7 +48,7 @@ const AttendingPage = () => (
         <p className="font-sans leading-normal  text-lg text-justify">
            <h2 className="text-teal"> Arriving </h2>
            <h3 className="text-purple-light"> Location </h3>
-           <img src={Location} />
+           <img src={Location} alt=""/>
            <h3 className="text-purple-light"> Transport </h3>
            <ul className="sm:list-reset">
              <li><strong className="text-grey-darker"> By bus:</strong> See this <a className="no-underline text-teal " href="http://www.termibus.es/lang/en/index.php" target="_blank" rel="noopener noreferrer">link </a> for complete information about companies, prices, timetables and the main cities served by bus. <strong className="text-grey-darker"> Tlf: +34 944 395 077</strong> </li>
@@ -58,7 +58,7 @@ const AttendingPage = () => (
            </ul>
 
         </p>
-        <img src={Plane} />
+        <img src={Plane} alt="How to reach Bilbao by plane"/>
         <br /><br />
          <p className="font-sans leading-normal  text-lg text-justify">
            <h2 className="text-teal"> Hotels </h2>
@@ -72,8 +72,8 @@ const AttendingPage = () => (
 
       <br />
 
-      <img src={HotelsTable} />
-      <img src={HotelsMap} />
+      <img src={HotelsTable} alt=""/>
+      <img src={HotelsMap} alt=""/>
       
       </div>
 

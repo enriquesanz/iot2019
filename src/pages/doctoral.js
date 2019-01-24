@@ -58,7 +58,7 @@ In general terms, IoT 2019 is seeking for original, high impact research ideas o
         </p>
          <br /><br />
         <h2 className="text-teal font-serif">Preparing and Submitting Your PhD proposal:</h2>
-        Students interested in participating in the Doctoral Consortium should submit a 4-page abstract in ACM SIGCHI Extended Abstracts Format describing in English their research question, its position with respect to the state of the art, their research plans and methodology, ideas, and results achieved so far. Accepted abstracts will be included in the adjunct conference proceedings (unless opted out by the student).
+        Students interested in participating in the Doctoral Consortium should submit a 4-page abstract in ACM SIGCHI Extended Abstracts Format via the <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> describing in English their research question, its position with respect to the state of the art, their research plans and methodology, ideas, and results achieved so far. Accepted abstracts will be included in the adjunct conference proceedings (unless opted out by the student).
 
 It is planned that each student will be allocated a 20-minute time slot, with 15 minutes for a presentation and 5 minutes for oral feedback by at least two senior faculty or researchers. The presentation will be intimate to encourage interaction, with only the session organizer, reviewers, and other student DC presenters in attendance. Reviewer feedback will cover all aspects of their proposal (the choice of topic, how it is to be examined, etc.). Students are expected to attend all presentations in their sessions.
 

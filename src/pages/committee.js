@@ -83,7 +83,7 @@ const CommitteePage = () => (
           <h2 className="text-teal">Demo/Poster Chair:</h2>
 
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Kimberly Garcia" />
+              <img className="w-12 h-12 rounded-full mr-4" src={Kimberly} alt="Avatar of Kimberly Garcia" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans"> Kimberly Garcia</p>
                 <p className="text-grey-dark">Siemens, USA</p>
@@ -175,7 +175,7 @@ const CommitteePage = () => (
             </div>
             <br />
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Felix Villanueva" />
+              <img className="w-12 h-12 rounded-full mr-4" src={Felix} alt="Avatar of Felix Villanueva" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans">Felix Villanueva</p>
                 <p className="text-grey-dark">UCLM, Spain</p>
