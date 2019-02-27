@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
 import PackagesIoT from "../images/IoT-Sponsorship-Offers.pdf";
+import ComSoc from "../images/sponsors/logoIoT.png";
 
 const AboutPage = () => (
   <Layout>
@@ -39,6 +40,7 @@ const AboutPage = () => (
         <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div>
         <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
         <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
+        {/*<div className="w-full"><img src={ComSoc} alt="Sponsors"/></div>*/}
        
       </div>
     </p>

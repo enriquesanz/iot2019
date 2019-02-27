@@ -28,6 +28,7 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
     <div className="flex">
       <p className="font-sans leading-normal pl-4 text-justify text-lg">
       <h2 className="text-grey-darker font-serif">Topics</h2>
+      <br />
       <ul>
         <li><strong>Internet of Things Architecture:</strong> Novel information architecture design on field, edge, and cloud devices; object access and networking technology; investigation of technologies that support the mobility of functions and executions across system entities.</li>
         <li><strong>Interoperability of IoT Systems:</strong> Service discovery and composition, synchronization in distributed systems, overcoming siloization of IoT systems, semantic data description frameworks.</li>
@@ -60,14 +61,15 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
         </p>
       <br /><br />
       <h2 className="text-teal font-serif">Preparing and Submitting Your WiP or Demo:</h2>
-        Researchers interested should submit a between 2 and 4-pages abstract in the most recent ACM SIGCHI Extended Abstracts Format including references. Papers have to be submitted via our <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> submission site conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere.
+        Researchers interested should submit a between 2 and 4-pages abstract in the most recent ACM SIGCHI Extended Abstracts Format (<a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/acmart-master.zip" target="_blank" rel="noopener noreferrer">Latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigchi-extended-abstract-template/zzzfqvkmrfzn" target="_blank" rel="noopener noreferrer">Word</a>, <a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/2018/12/CHI19-EA-sample-file-1.docx" target="_blank" rel="noopener noreferrer">Overleaf</a>) including references. 
+        <br /><br />Papers have to be submitted via our <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> submission site conference system, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere.
 
-Papers are peer-reviewed by a committee of experts in the IoT field. Accepted papers will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library.
-Your submission should be close to camera-ready and thoroughly copy-edited due to the short selection cycle. Furthermore, due to the very rapid selection process we cannot offer any extensions to the deadline. Submissions are not anonymous and should therefore include all author names, affiliations and contact information and references to external data, software or videos, if applicable. Each application will be evaluated based on the IoT Topics of Interest.
+        Papers will be peer-reviewed by three experts of the scientific committee following a single-blind review process (i.e. identity of the reviewer is anonymous, but the author’s name and affiliation are on the paper). Accepted papers will be listed on DBLP and should be published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library.
+        Your submission should be close to camera-ready and thoroughly copy-edited due to the short selection cycle. Furthermore, due to the very rapid selection process we cannot offer any extensions to the deadline. Submissions are not anonymous and should therefore include all author names, affiliations and contact information and references to external data, software or videos, if applicable. Each application will be evaluated based on the IoT Topics of Interest.
         <br /><br />
         <h3 className="text-teal font-serif">Special note to WiPs submissions:</h3>
         When preparing accepted posters please note that your poster should not exceed the following dimensions: 841 x 1189 mm portrait format. Other formats will not be supported.
-
+        <br /><br />
         <h3 className="text-teal font-serif">Special note to Demos submissions: </h3>
         Include an appendix with the description of the system and its purpose, its status of implementation and deployment, contents of the demo to be shown at the conference, and equipment. If you want to show a commercial product then you might be asked to pay an exhibition fee.
 

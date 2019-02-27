@@ -21,6 +21,8 @@ import Aitor from "../images/committee/aitor.jpg";
 import Felix from "../images/committee/felix.jpeg";
 import Enrique from "../images/committee/kike.jpg";
 import Ane from "../images/committee/ane.jpg";
+import Avatar from "../images/committee/avatar.png";
+import Latif from "../images/committee/latif.png";
 
 
 const CommitteePage = () => (
@@ -72,7 +74,7 @@ const CommitteePage = () => (
           </div>
           <br />
           <div className="flex items-center">
-          <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of Matthias Kovatsch" />
+          <img className="w-12 h-12 rounded-full mr-4" src={Matthias} alt="Avatar of Matthias Kovatsch" />
             <div className="text-sm">
               <p className="text-black leading-none text-lg font-sans">Matthias Kovatsch</p>
               <p className="text-grey-dark">Huawei, Germany</p>
@@ -111,7 +113,7 @@ const CommitteePage = () => (
             </div>
             <br />
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of J. Martin Serrano" />
+              <img className="w-12 h-12 rounded-full mr-4" src={Martin} alt="Avatar of J. Martin Serrano" />
               <div className="text-sm">
                 <p className="text-black leading-none text-lg font-sans">J. Martin Serrano</p>
                 <p className="text-grey-dark">Insight NUI Galway, Ireland</p>
@@ -203,26 +205,25 @@ const CommitteePage = () => (
           <br />  
           <h2 className="text-teal">Publicity/Social Media Chairs:</h2>
             <div className="flex items-center">
-              <img className="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/400" alt="Avatar of TBA" />
+              <img className="w-12 h-12 rounded-full mr-4" src={Latif} alt="Avatar of TBA" />
               <div className="text-sm">
-                <p className="text-black leading-none text-lg font-sans">TBA</p>
-                <p className="text-grey-dark"></p>
+                <p className="text-black leading-none text-lg font-sans">Latif Ladid</p>
+                <p className="text-grey-dark">University of Luxembourg, Luxembourg</p>
               </div>
             </div>
 
           <br />
-          <h2 className="text-teal">Steering committee:</h2>
+          <h2 className="text-teal"><a class="no-underline text-teal hover:font-bold" href="https://iot-conference.org/sc/" target="_blank" rel="noopener noreferrer"> Steering committee:</a></h2>
             <ul>
-              <li>Kai Kunze (Keio University, Japan)</li>
-              <li>Simon Mayer (Univ of St Gallen, Switzerland)</li>
-              <li>Hao Min (Fudan University, China)</li>
-              <li>Marc Langheinrich (USI, Switzerland)</li>
-              <li>Friedemann Mattern (ETH Zurich, Switzerland)</li>
-              <li>Florian Michahelles (Siemens, USA)</li>
-              <li>Jun Murai (Keio University, Japan)</li>
-              <li>Albrecht Schmidt (LMU Munich, Germany)</li>
-              <li>Stefan Schneegass (University of Duisburg-Essen, Germany)</li>
-              <li>Lirong Zheng (KTH, Sweeden & Fudan University, China)</li>
+              <li>Albrecht Schmidt, LMU Munich (Germany)</li>
+              <li>Federica Cena, University of Turin (Italy)</li>
+              <li>Florian Michahelles, Siemens (USA)</li>
+              <li>Hao Min, Fudan University (China)</li>
+              <li>Jun Murai, Keio University (Japan)</li>
+              <li>Krzysztof Janowicz, UC Santa Barbara (USA)</li>              
+              <li>Marc Langheinrich, USI (Switzerland)</li>
+              <li>Simon Mayer, Univ of St Gallen, (Switzerland)</li>
+              <li>Stefan Schneegass, University of Duisburg-Essen (Germany)</li>
             </ul>
 
         </p>
@@ -231,7 +232,54 @@ const CommitteePage = () => (
         <p className="font-serif leading-loose pl-4 text-justify">
           <h2 className="text-teal">Program Committee:</h2>
             <ul>
-              <li>TBA</li>
+              <li>Alexander Pflaum, Fraunhofer (Germany)</li>
+              <li>Andrei Ciortea, University of St. Gallen (Switzerland)</li>
+              <li>Armin Wasicek, Brocade Communications Inc. (USA) </li>
+              <li>Bernhard Anzengruber,Johannes Kepler University (Austria)</li>
+              <li>Borja Gamecho, Wimbi Technologies, S.L. (Spain)</li>
+              <li>Dan Jiang, Philips Lighting (Netherlands)</li>
+              <li>Dave Raggett, W3C (UK)</li>
+              <li>David Palma, NTNU (Norway)</li>
+              <li>Dominique Guinard, MIT / ETH Zurich / SAP Research (USA)</li>
+              <li>Fatima.Z Benhamida, ESI (Algiers)</li>
+              <li>Federico Casalegno, Massachusetts Institute of Technology (USA)</li>
+              <li>Felix Wortmann, IWI HSG ()</li>
+              <li>Florian Michahelles, Siemens Corporation (USA)</li>
+              <li>Friedemann Mattern, ETH Zurich (Switzerland)</li>
+              <li>George Shaker, University of Waterloo (Canada)</li>
+              <li>Gerd Kortuem, Delft University of Technology (Netherlands)</li>
+              <li>Gianluca Rizzo, HES-SO Valais (Switzerland)</li>
+              <li>Inaki Vazquez, Universidad de Deusto (Spain)</li>
+              <li>Iva Bojic, Massachusetts Institute of Technology (USA)</li>
+              <li>Jacques Pasquier, Univ. of Fribourg (Switzerland)</li>
+              <li>Jens Grossklags, Technical University of Munich (Germany)</li>
+              <li>Joachim Walewski, Siemens AG (Germany)</li>
+              <li>Kai Kunze, Keio University (Japan)</li>
+              <li>Kay Roemer, TU Graz (Austria)</li>
+              <li>Kristof Van Laerhoven, University of Siegen (Germany)</li>
+              <li>Lionel Médini, LIRIS lab. / University of Lyon (France)</li>
+              <li>Maarten Weyn, University of Antwerpen (Belgium)</li>
+              <li>Mareike Kritzler, Siemens Corporate Technology (Germany)</li>
+              <li>Marino Linaje, Universidad de Extremadura (Spain)</li>
+              <li>Markus Funk, Nuance Communications, Inc. (Germany)</li>
+              <li>Michael Beigl, TecO, Pervasive Computing Systems (Germany)</li>
+              <li>Michael Blackstock, The University of British Columbia (USA)</li>
+              <li>Michael Mrissa, Université de Pau et des Pays de l'Adour (France)</li>
+              <li>Mihai Bâce, ETH Zurich (Switzerland)</li>
+              <li>Olivier Boissier, Mines Saint-Etienne, Institut Henri Fayol (France)</li>
+              <li>Olivier Liechti, Univ. of Applied Sciences of Western (Switzerland)</li>
+              <li>Payam Barnaghi, University of Surrey (UK)</li>
+              <li>Rahul Bhattacharyya, Massachusetts Institute of Technology (USA)</li>
+              <li>Roman Kolcun, Imperial College London (UK)</li>
+              <li>Ruben Verborgh, Ghent University - IMEC (Belgium)</li>
+              <li>Stamatis Karnouskos, SAP (Germany)</li>
+              <li>Stefan Schneegass, University of Stuttgart (Germany)</li>
+              <li>Sumeet Kumar, Massachusetts Institute of Technology (USA)</li>
+              <li>Tam Huynh, T-Systems International GmbH (Germany)</li>
+              <li>Till Riedel, TecO, Karlsruhe Institute of Technology (Germany)</li>
+              <li>Vaggelis Giannikas, University of Cambridge (UK)</li>
+              <li>Wolfgang Kastner, Vienna University of Technology (Austria)</li>
+              <li>Zaheer Khan, University of the West of England, Bristol (UK)</li>
             </ul>
         </p>
         <br /><br />

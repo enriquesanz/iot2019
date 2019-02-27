@@ -58,7 +58,23 @@ const WorkshopsPage = () => (
         </p>
 
          <br /><br />
-        <h2 className="text-teal font-serif">Review Criteria:</h2>
+         <h2 className="text-teal font-serif">Workshop proposals:</h2>
+        Submissions should be submitted via <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> as a 200 words abstract, along with a single PDF file of 4 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format (<a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/acmart-master.zip" target="_blank" rel="noopener noreferrer">Latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigchi-extended-abstract-template/zzzfqvkmrfzn" target="_blank" rel="noopener noreferrer">Word</a>, <a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/2018/12/CHI19-EA-sample-file-1.docx" target="_blank" rel="noopener noreferrer">Overleaf</a>)  including references, containing the following section:
+
+        <ul>
+            <li>Title, acronym, potentially logo.</li>
+            <li>Topics of interest covered by the workshop</li>
+            <li>Motivation: Why is the topic of particular interest to a reasonable fraction of the  IoT community? If applicable, a brief discussion of the workshop’s history (experiences, number of submissions and attendees, etc.).</li>
+            <li>Organization and Format: Description of the intended organization, selection process for the contributors, and schedule of the event.</li>
+            <li>Community: Evidence that there is an existing community of researchers and practitioners that are susceptible to contribute to this event. References to work relating to the core topic of the workshop that are not only co-authored by the organizers.</li>
+            <li>Chairs: Name, affiliation, email address, homepage and short biography of each chair, explaining the chair’s expertise for the workshop</li>
+            <li>Program Committee: Names and affiliations of potential PC members, half of the potential PC members should have confirmed at the time of submission.</li>
+            <li>Potential means for publishing workshop papers: Ideas about what to do with the papers submitted to the workshops (e.g. include in the adjunct proceedings, write a book chapter, magazine article, etc.)</li>
+        </ul>
+        <br />
+        All workshop participants will be required to register for the full conference as well. Workshop organizers will receive one complimentary conference ticket for one organizer or one workshop participant. At the discretion of the chairs, workshops may be cancelled if organisers have not registered in a timely manner or if a workshop has received too few submissions.
+        <br /><br />
+        <h3 className="text-teal font-serif">Review Criteria:</h3>
         A limited number of workshop proposals will be accepted to IoT 2019. Each proposal will be evaluated based on the quality of the proposal, and its appeal to the IoT community. In particular, the proposals should demonstrate the following:
 
         <ul>
@@ -71,21 +87,7 @@ const WorkshopsPage = () => (
         In case overlapping workshops are proposed, the Workshop Chairs may contact the organisers to discuss the possibility of merging workshops. The organisers of accepted workshops will be responsible for their own reviewing process and publicity (e.g., website, timelines and call for papers).
 
         <br /><br />
-        <h3 className="text-teal font-serif">Workshop proposals:</h3>
-        Submissions should be submitted via <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> as a 200 words abstract, along with a single PDF file of 4 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format including references, containing the following section:
-
-        <ul>
-            <li>Title, acronym, potentially logo</li>
-            <li>Topics of interest covered by the workshop</li>
-            <li>Motivation: Why is the topic of particular interest to a reasonable fraction of the  IoT community? If applicable, a brief discussion of the workshop’s history (experiences, number of submissions and attendees, etc.).</li>
-            <li>Organization and Format: Description of the intended organization, selection process for the contributors, and schedule of the event.</li>
-            <li>Community: Evidence that there is an existing community of researchers and practitioners that are susceptible to contribute to this event. References to work relating to the core topic of the workshop that are not only co-authored by the organizers.</li>
-            <li>Chairs: Name, affiliation, email address, homepage and short biography of each chair, explaining the chair’s expertise for the workshop</li>
-            <li>Program Committee: Names and affiliations of potential PC members, half of the potential PC members should have confirmed at the time of submission.</li>
-            <li>Potential means for publishing workshop papers: Ideas about what to do with the papers submitted to the workshops (e.g. include in the adjunct proceedings, write a book chapter, magazine article, etc.)</li>
-        </ul>
-        <br />
-        All workshop participants will be required to register for the full conference as well. Workshop organizers will receive one complimentary conference ticket for one organizer or one workshop participant. At the discretion of the chairs, workshops may be cancelled if organisers have not registered in a timely manner or if a workshop has received too few submissions.
+        
 
 
     </p>
