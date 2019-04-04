@@ -5,6 +5,7 @@ import Index from "../images/index_resize.png";
 import GatsbyLink from "gatsby-link";
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
+import ACM from '../images/acm.png'
 
 const IndexPage = () => (
   <Layout>
@@ -38,16 +39,16 @@ const IndexPage = () => (
         <p className="font-sans leading-normal text-lg text-justify">
         The Internet of Things Conference is seeking original, high impact research papers on all topics related to the development of the Internet of Things. Papers will be reviewed 
         and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance.
-        <br/><br/>
-        <strong className="text-grey-darker">The topic of this year edition will be the Internet of Things for People </strong> which encompasses all the applications and ground-breaking work that is being done in the IoT field to pave the bridge between citizens and everywhere data produced by pervasive technology.
+        <br/>
         </p>
       </div>
       <div className="md:w-1/3 md:mr-8">
         <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
         <h4 className="font-serif text-grey-darker">Submission Key Dates:</h4>
         <ul className="sm:list-reset">
-          <li><strong>Paper submission deadline:</strong><br/> Friday, May 3, 2019</li>
-          <li><strong>Papers camera ready deadline:</strong><br/> Thursday, July 4, 2019</li>
+          <li><strong>Paper submission deadline:</strong><br/> June 2, 2019</li>
+          <li><strong>Acceptance notice deadline:</strong><br/> July 14, 2019</li>
+          <li><strong>Camera-ready deadline:</strong><br/> September 1, 2019</li>
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>

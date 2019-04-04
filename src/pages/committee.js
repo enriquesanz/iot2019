@@ -203,7 +203,7 @@ const CommitteePage = () => (
             </div>
         
           <br />  
-          <h2 className="text-teal">Publicity/Social Media Chairs:</h2>
+          <h2 className="text-teal">Publicity Chair:</h2>
             <div className="flex items-center">
               <img className="w-12 h-12 rounded-full mr-4" src={Latif} alt="Avatar of TBA" />
               <div className="text-sm">
@@ -232,7 +232,7 @@ const CommitteePage = () => (
         <p className="font-serif leading-loose pl-4 text-justify">
           <h2 className="text-teal">Program Committee:</h2>
             <ul>
-              <li>Alexander Pflaum, Fraunhofer (Germany)</li>
+              {/*<li>Alexander Pflaum, Fraunhofer (Germany)</li>
               <li>Andrei Ciortea, University of St. Gallen (Switzerland)</li>
               <li>Armin Wasicek, Brocade Communications Inc. (USA) </li>
               <li>Bernhard Anzengruber,Johannes Kepler University (Austria)</li>
@@ -279,7 +279,21 @@ const CommitteePage = () => (
               <li>Till Riedel, TecO, Karlsruhe Institute of Technology (Germany)</li>
               <li>Vaggelis Giannikas, University of Cambridge (UK)</li>
               <li>Wolfgang Kastner, Vienna University of Technology (Austria)</li>
-              <li>Zaheer Khan, University of the West of England, Bristol (UK)</li>
+              <li>Zaheer Khan, University of the West of England, Bristol (UK)</li>*/}
+              <li>TBA</li>
+            </ul>
+        </p>
+        <br /><br />
+        <p className="font-serif leading-loose pl-4 text-justify">
+          <h2 className="text-teal">Local Committee:</h2>
+            <ul>
+              <li>Unai Aguilera, University of Deusto (Spain)</li>
+              <li>Aitor Almeida, University of Deusto (Spain)</li>
+              <li>Cruz E. Borges, University of Deusto (Spain)</li>
+              <li>David Bujan, University of Deusto (Spain)</li>
+              <li>Oihane Gómez-Carmona, University of Deusto (Spain)</li>
+              <li>Anne Irizar-Arrieta, University of Deusto (Spain)</li>
+              <li>Jon Legarda, University of Deusto (Spain)</li>
             </ul>
         </p>
         <br /><br />
