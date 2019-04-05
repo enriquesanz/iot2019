@@ -5,6 +5,8 @@ import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
 import PackagesIoT from "../images/IoT-Sponsorship-Offers.pdf";
 import ComSoc from "../images/sponsors/logoIoT.png";
+import EC from "../images/sponsors/EC-Council.png";
+import Deusto from "../images/sponsors/Deusto.jpeg";
 
 const AboutPage = () => (
   <Layout>
@@ -35,14 +37,31 @@ const AboutPage = () => (
     <p>
     
 
-      <div className="flex flex-col bg-grey-lighter">
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+PLATINIUM+logo+here" alt="Platinium"/></div>
+      <div className="flex flex-col ">
+        <p className="text-sm text-dark flex items-center">
+          <strong>Sponsors</strong>
+        </p>
+        <div className="w-full"><img src={Deusto} alt="Platinium"/></div>
         <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
-        {/*<div className="w-full"><img src={ComSoc} alt="Sponsors"/></div>*/}
-       
       </div>
+      <br/>
+      <div className="flex flex-col ">
+        <p className="text-sm text-dark flex items-center">
+          <strong>Contributors</strong>
+        </p>
+      <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
+      <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
+      </div>
+      <br/>
+
+      <div className="flex flex-col">
+        <p className="text-sm text-dark flex items-center">
+          <strong>Friends of IoT Conference</strong>
+        </p>
+        <div className="w-full"><img src={EC} alt="ComSoc"/></div>
+        <div className="w-full"><img src={ComSoc} alt="ComSoc"/></div>
+      </div>        
+
     </p>
     </div>
   </Layout>

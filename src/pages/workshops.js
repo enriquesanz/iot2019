@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Sponsors from "../components/sponsors";
 
 const WorkshopsPage = () => (
     <Layout>
@@ -12,7 +13,7 @@ const WorkshopsPage = () => (
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-green-lighter font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Workshop Proposals</h1>
-      Workshops collocated with the 9th International Conference on the Internet of Things (IoT 2019) are opportunities to strengthen communities of researchers and practitioners working in specific topics related to the IoT. These events foster the exchange of new ideas, ongoing work, and latests results, in established or emerging sub-domains of interest. They are opportunities for IoT pioneers and practitioners in industry to share hands-on experience with IoT systems (use cases, deployments, architectures, etc.), and for researchers to present and receive feedback on early research result. Approved workshops and tutorials will be announced on the conference website.
+      Workshops collocated with the 9th International Conference on the Internet of Things (IoT 2019) are opportunities to strengthen communities of researchers and practitioners working in specific topics related to the IoT. These events foster the exchange of new ideas, ongoing work, and latests results, in established or emerging sub-domains of interest. They are opportunities for IoT pioneers and practitioners in industry to share hands-on experience with IoT systems (use cases, deployments, architectures, etc.), and for researchers to present and receive feedback on early research result. Approved workshops  will be announced on the conference website.
 
 
       <br />
@@ -21,45 +22,45 @@ const WorkshopsPage = () => (
       <br />
       </p>
 
-    <br />
+    <br /><br />
 
     <div className="flex">
       <p className="font-sans leading-normal pl-4 text-justify text-lg">
-      <h2 className="text-teal font-serif">Topics</h2>
+      <h2 className="text-teal font-serif">This 9th edition topics, but are not limited to:</h2>
+      <br />
       <ul>
-          <li><strong>Internet of Things Architecture:</strong> Novel information architecture design on field, edge, and cloud devices; object access and networking technology; investigation of technologies that support the mobility of functions and executions across system entities.</li>
-          <li><strong>Interoperability of IoT Systems:</strong> Service discovery and composition, synchronization in distributed systems, overcoming siloization of IoT systems, semantic data description frameworks.</li>
-          <li><strong>Description and Discovery of IoT devices, including mobile and moving devices:</strong> Ontologies and data models for the description and discovery of mobile systems and applications, including autonomous systems and wearable, urban or sensory computing devices.</li>
+          <li><strong>IoT Edge and Cloud Architectures:</strong> Novel architecture designs for the IoT that adopt techniques from Cloud Computing or operator networks to describe, discover, access, manage, process information, and orchestrate IoT devices and services in a robust and scalable manner, including systems with mobile dynamics. The domain may vary from home and wearables to urban sensory devices to smart manufacturing equipment and environments.</li>
+          <li><strong>Web of Things:</strong> Applying Web technology to the IoT or generally aiming for Web-like and semantic interoperability for IoT applications leads to a variety of open research questions. Example topics are physical mashups, IoT usability, developer ergonomics, end-user programmability, unifying data models, meta models, or data and model definition languages dedicated to IoT.</li>
+          <li><strong>IoT Communication Technologies:</strong> Advancements in communications and network protocols dedicated to machine-type communication and sensor integration are sought to address particular challenges of the IoT, such as low latency and high reliability and availability. Methods building on NB-IoT and mmWave radio as well as advances in, e.g., Bluetooth Low Energy (BLE), Radio Frequency Identification (RFID), LoRa/LoRaWAN, Sigfox, and 5G for IoT are welcome. Advances to industrially driven solutions and standards such as 6TiSCH or IEEE TSN are within scope.</li>
       </ul>
       <p className="text-xl text-center text-green-lighter">~~~</p>
       <ul>
-        <li><strong>Novel IoT Interactions:</strong> Novel methods and techniques for seamless human-to-object and object-to-object interactions, including, but not limited to brain, audible, tangible or augmented or mixed reality.</li>
-          <li><strong>Object-objects Interactions:</strong> methods and protocols for co-operations and coordination among objects, social internet of things, trust among objects</li>
-          <li><strong>Social Adoption of IoT Systems:</strong> Data security, authentication, authorization and trustworthiness. Privacy protection, data sharing technologies (incl. blockchain technology), tampering protection and detection in IoT systems.</li>
-          <li><strong>Internet of People:</strong> the new IoT paradigm where humans and their personal devices are not seen merely as end users of applications, but become active elements of the IoT. Thus, collaboration bridging machine intelligence and human intelligence</li>
+          <li><strong>AI and Machine Learning for the IoT:</strong> AI and Machine Learning research applied to all aspects of the IoT is welcome. This includes deep and reinforcement learning on IoT data sets, optimization of IoT technologies based on Machine Learning, self-driving networks and self-organization, networked AI, artificially intelligent or autonomous devices, and approaches to "IoT intelligence" in cognitive machines, autonomous vehicles, and edge intelligence.</li>
+          <li><strong>Sensing, Signal Processing, Actuation and Analytics:</strong> New methods to sense and process signals from the physical world are encouraged. This may include analytics performed over sensor data streams at various points in the overall system architecture, event detection, object identification and localization, and novel control methods for intelligent actuation.</li>
+          <li><strong>Energy Efficiency and Sustainability in the IoT:</strong> Novel approaches to energy-efficient and sustainable operation of connected devices are welcome. These may include efficient communication protocols, signal processing and compression techniques, energy harvesting, scavenging, and power transfer technologies.</li>          
+          <li><strong>Real-world Applications, Deployments and Testbeds:</strong> Papers describing novel real-world IoT applications, deployments of cyber-physical systems, and new testbed facilities are welcome. Evaluation of relevant real-world challenges (connectivity, reliability, scalability, etc.) is of particular interest. Examples may include those relevant to Industry 4.0, Smart Cities, Precision Agriculture, Healthcare, Logistics/Supply Chain Management (GS1/EPCGlobal), etc.</li>
       </ul>
       <p className="text-xl text-center text-green-light">~~~</p>
       <ul>
-         <li><strong>Web Technologies for the IoT:</strong> Web-based discovery, search, and service composition to facilitate interactions between devices on the IoT and with users.</li>
-           <li><strong>Physical World Event Processing and Understanding:</strong>  Novel data collection, deep learning, reality mining, and prediction methods based on physical world observations. This might include real-time decision making, event processing, and extracting information from large datasets.</li>
-           <li><strong>Integration of Physical and Virtual Artifacts and Events:</strong> Advanced object identification, classification, and localization.</li>
-           <li><strong>Real World Applications of IoT technology:</strong> Evaluation of challenges of real world deployments of Industry 4.0, Industrial Internet, and GS1 implementations, including planned deployments (e.g., in advanced Manufacturing and Logistics).</li>
+          <li><strong>Interacting with the IoT:</strong> Novel methods and techniques for seamless human-to-object and object-to-object interactions, including visual, brain, audible, persuasive, embodied, tangible interaction and augmented or mixed reality are invited. Usability of the IoT and user experience studies are welcomed, as well as new interaction concepts emerging from being surrounded by smart devices. HCI in manufacturing and Industry 4.0 environments is particularly welcome.</li>
+          <li><strong>Security, Privacy and Trust in the IoT:</strong> Advances in delivering secure, trustworthy and privacy-preserving IoT applications and systems are essential to promote widespread adoption. Papers describing new robust ways to achieve this objective are sought.</li>
+          <li><strong>Societal Impact of the IoT:</strong> To understand the impact of millions of IoT devices on society, case studies are encouraged that emerge from living in hyper-connected societies where automation through IoT and delegation of tasks is present. Advances on the Social Internet of Things and bridging IoT intelligence and human intelligence to cope with societal challenges (e.g. sustainability, wellbeing, food security or secure societies) are complementary to the conference scope.</li>        
       </ul>
        <br /><br />
       <h2 className="text-teal font-serif">Important Dates</h2>
         <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Proposals Due:</strong> March 25, 2019</li>
-            <li><strong className="text-grey-darker">Notifications:</strong> April 12, 2019</li>
-            <li><strong className="text-grey-darker">Camera Ready (online-information in web):</strong> April 30, 2019</li>
+            <li><strong className="text-grey-darker">Proposals Due:</strong> June 2, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> June 9, 2019</li>
+            <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
           </ul>
         </p>
 
          <br /><br />
          <h2 className="text-teal font-serif">Workshop proposals:</h2>
-        Submissions should be submitted via <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/conferences/?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> as a 200 words abstract, along with a single PDF file of 4 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format (<a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/acmart-master.zip" target="_blank" rel="noopener noreferrer">Latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigchi-extended-abstract-template/zzzfqvkmrfzn" target="_blank" rel="noopener noreferrer">Word</a>, <a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/2018/12/CHI19-EA-sample-file-1.docx" target="_blank" rel="noopener noreferrer">Overleaf</a>)  including references, containing the following section:
+        Submissions should be submitted via <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> as a 200 words abstract, along with a single PDF file of 4-6 pages maximum in the most recent ACM SIGCHI Extended Abstracts Format (<a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/acmart-master.zip" target="_blank" rel="noopener noreferrer">Latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigchi-extended-abstract-template/zzzfqvkmrfzn" target="_blank" rel="noopener noreferrer">Word</a>, <a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/2018/12/CHI19-EA-sample-file-1.docx" target="_blank" rel="noopener noreferrer">Overleaf</a>)  including references, containing the following section:
 
         <ul>
             <li>Title, acronym, potentially logo.</li>
@@ -70,10 +71,8 @@ const WorkshopsPage = () => (
             <li>Chairs: Name, affiliation, email address, homepage and short biography of each chair, explaining the chair’s expertise for the workshop</li>
             <li>Program Committee: Names and affiliations of potential PC members, half of the potential PC members should have confirmed at the time of submission.</li>
             <li>Potential means for publishing workshop papers: Ideas about what to do with the papers submitted to the workshops (e.g. include in the adjunct proceedings, write a book chapter, magazine article, etc.)</li>
-        </ul>
+        </ul>        
         <br />
-        All workshop participants will be required to register for the full conference as well. Workshop organizers will receive one complimentary conference ticket for one organizer or one workshop participant. At the discretion of the chairs, workshops may be cancelled if organisers have not registered in a timely manner or if a workshop has received too few submissions.
-        <br /><br />
         <h3 className="text-teal font-serif">Review Criteria:</h3>
         A limited number of workshop proposals will be accepted to IoT 2019. Each proposal will be evaluated based on the quality of the proposal, and its appeal to the IoT community. In particular, the proposals should demonstrate the following:
 
@@ -85,15 +84,34 @@ const WorkshopsPage = () => (
         </ul>
         <br />
         In case overlapping workshops are proposed, the Workshop Chairs may contact the organisers to discuss the possibility of merging workshops. The organisers of accepted workshops will be responsible for their own reviewing process and publicity (e.g., website, timelines and call for papers).
+        <br />
+        All workshop participants will be required to register for the full conference as well. At the discretion of the chairs, workshops may be cancelled if organisers have not registered in a timely manner or if a workshop has received too few submissions.
+        <br /><br />
 
+        <h3 className="text-teal font-serif">Pack for Workshop organizers:</h3>        
+        <ul>
+            <li>Workshop organizers will receive one complimentary conference ticket for one organizer.</li>
+            <li>Workshop attendees should only register on the conference without paying an extra fee for the workshops.</li>
+            <li>Workshop organizers will be provided of specific physical space on site according to the number of participants.</li>
+            <li>All Workshop will be announced in the website of the conference as a collocated event.</li>
+        </ul>        
         <br /><br />
         
 
 
     </p>
+    
     </div>
+    <br/><br/>
+      <p>
+          {/*<Publishers />*/}
+          <Sponsors />
+
+      </p>
+
 
     </div>
+
  </div>
 
  </Layout>

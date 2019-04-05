@@ -167,7 +167,7 @@ const CommitteePage = () => (
             </div>
           
           <br />
-          <h2 className="text-teal">Spanish Assembly Chairs:</h2>
+          <h2 className="text-teal">Networking Chairs:</h2>
             <div className="flex items-center">
               <img className="w-12 h-12 rounded-full mr-4" src={Aitor} alt="Avatar of Aitor Urbieta" />
               <div className="text-sm">

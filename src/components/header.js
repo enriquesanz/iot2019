@@ -60,7 +60,18 @@ const Header = () => {
             >
               Attending
             </Link>
-
+            <Link
+              to="/registration"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+            >
+              Registration
+            </Link>
+            <Link
+              to="/keynotes"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            >
+              Keynotes
+            </Link>
             <Link
               to="/committee"
               className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
