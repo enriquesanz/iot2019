@@ -24,7 +24,7 @@ const IndexPage = () => (
 
     <br/>
     <div className="block xl:flex md:flex sm:block">
-      <div className="flex-2 md:w-4/5 md:mr-8">
+      <div className="flex-2 md:w-3/5 md:mr-20">
         <p className="font-sans leading-normal text-lg text-justify">
         
         The 9th International Conference on the Internet of Things (IoT 2019), building on the success of its predecessors since 2008, is the premier forum  to share, 
@@ -45,10 +45,17 @@ const IndexPage = () => (
         <br/>
         </p>
         <br/>
+        <h4 className=" font-serif text-grey-darker text-left">Special Issues:</h4>
+        <div className="flex">
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-internet-of-people-human-driven-artificial" target="_blank" rel="noopener noreferrer"><img src={FGCS} /></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/sensors/special_issues/Fog_Edge_IoT?view=compact&listby=date" target="_blank" rel="noopener noreferrer"><img src={SENSORS} /></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.facebook.com/notes/personal-and-ubiquitous-computing/social-networks-and-social-ubiquitous-computing-cfp/10155773077520458/" target="_blank" rel="noopener noreferrer"><img src={PUC} /></a></div>
+                
+        </div>
+        <br/>
       </div>
 
-
-      <div className="flex-1 md:w-1/3 md:mr-8">
+      <div className="flex-1 md:w-1 md:mr-8">
         <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
         <h4 className="font-serif text-grey-darker">Key Dates:</h4>
         <ul className="sm:list-reset">
