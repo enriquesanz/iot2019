@@ -36,6 +36,14 @@ module.exports = {
         purgeOnly: ['src/css/style.css'], // Purge only tailwind
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+		trackingId: "UA-29274620-3",
+	       },
+                   
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

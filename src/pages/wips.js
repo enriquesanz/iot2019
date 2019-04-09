@@ -14,12 +14,6 @@ const WipsPage = () => (
       <p className="border-l-4 border-yellow-dark font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Posters and Demo sessions</h1>
       The objective of the Posters and Demo sessions is to give researchers in the emerging research areas of IoT and their applications the opportunity to present early and fresh, in-progress results to share experiences and strategies while facilitating the discussion between authors and conference attendees.
-
-<br />
-<br />
-
-In general terms, IoT 2019 is seeking for works on all topics related to the development and adoption of the Internet of Things.  
-
       <br />
       </p>
 
@@ -27,7 +21,9 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
 
     <div className="flex">
       <p className="font-sans leading-normal pl-4 text-justify text-lg">
-      <h2 className="text-teal font-serif">This 9th edition topics, but are not limited to:</h2>
+      <h2 className="text-teal font-serif">Topics:</h2>
+      
+        <p>In general terms, IoT 2019 is seeking for works on all topics related to the development and adoption of the Internet of Things.  In particular, possible topics are, but not limited to: </p>
       <br />
       <ul>
         <li><strong>IoT Edge and Cloud Architectures:</strong> Novel architecture designs for the IoT that adopt techniques from Cloud Computing or operator networks to describe, discover, access, manage, process information, and orchestrate IoT devices and services in a robust and scalable manner, including systems with mobile dynamics. The domain may vary from home and wearables to urban sensory devices to smart manufacturing equipment and environments.</li>
@@ -61,7 +57,7 @@ In general terms, IoT 2019 is seeking for works on all topics related to the dev
       <br /><br />
       <h2 className="text-teal font-serif">Preparing and Submitting Your Poster or Demo:</h2>
         Researchers interested should submit a 2 to 4 pages abstract (including references) formatted in the most recent ACM SIGCHI Extended Abstracts Format (<a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/acmart-master.zip" target="_blank" rel="noopener noreferrer">Latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sigchi-extended-abstract-template/zzzfqvkmrfzn" target="_blank" rel="noopener noreferrer">Word</a>, <a class="no-underline text-teal hover:font-bold" href="http://chi2019.acm.org/wp-content/uploads/2018/12/CHI19-EA-sample-file-1.docx" target="_blank" rel="noopener noreferrer">Overleaf</a>). 
-        <br /><br />Papers should be submitted via our <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/" target="_blank" rel="noopener noreferrer">EasyChair conference system</a> must be written in English, and contain original material that has not been published or is currently undergoing review elsewhere. Papers will be peer-reviewed by two experts of the scientific committee following a single-blind review process (i.e., identity of the reviewer is anonymous, but the author’s name and affiliation are on the paper). Accepted papers will be will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library. Your submission should be close to camera-ready and thoroughly copy-edited due to the short selection cycle. Furthermore, due to the very rapid selection process, we cannot offer any extensions to the deadline. 
+        <br /><br />Papers should be submitted via our <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/" target="_blank" rel="noopener noreferrer">EasyChair conference system</a>, must be written in English, and contain original material that has not been published or is currently undergoing review elsewhere. Papers will be peer-reviewed by two experts of the scientific committee following a single-blind review process (i.e., identity of the reviewer is anonymous, but the author’s name and affiliation are on the paper). Accepted papers will be will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library. Your submission should be close to camera-ready and thoroughly copy-edited due to the short selection cycle. Furthermore, due to the very rapid selection process, we cannot offer any extensions to the deadline. 
 
         <br /><br />
         <h3 className="text-teal font-serif">Special note to Posters submissions:</h3>

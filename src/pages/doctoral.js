@@ -23,7 +23,8 @@ const DoctoralPage = () => (
     
     <div className="flex">
       <p className="font-sans leading-normal pl-4 text-justify text-lg">
-      <h2 className="text-teal font-serif">This 9th edition topics, but are not limited to:</h2>
+      <h2 className="text-teal font-serif">Topics:</h2>  
+        <p>In general terms, IoT 2019 is seeking for works on all topics related to the development and adoption of the Internet of Things.  In particular, possible topics are, but not limited to: </p>
         <br />
         <ul>
           <li><strong>IoT Edge and Cloud Architectures:</strong> Novel architecture designs for the IoT that adopt techniques from Cloud Computing or operator networks to describe, discover, access, manage, process information, and orchestrate IoT devices and services in a robust and scalable manner, including systems with mobile dynamics. The domain may vary from home and wearables to urban sensory devices to smart manufacturing equipment and environments.</li>

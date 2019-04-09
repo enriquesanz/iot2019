@@ -5,7 +5,10 @@ import Index from "../images/index_resize.png";
 import GatsbyLink from "gatsby-link";
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
-import ACM from '../images/acm.png'
+import FGCS from '../images/SI/FGCS.jpg'
+import SENSORS from '../images/SI/sensors.png'
+import PUC from '../images/SI/PUC.jpg'
+
 
 const IndexPage = () => (
   <Layout>
@@ -41,14 +44,18 @@ const IndexPage = () => (
         and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance.
         <br/>
         </p>
+        <br/>
+        
+                
+       
       </div>
       <div className="md:w-1/3 md:mr-8">
         <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
-        <h4 className="font-serif text-grey-darker">Submission Key Dates:</h4>
+        <h4 className="font-serif text-grey-darker">Key Dates:</h4>
         <ul className="sm:list-reset">
-          <li><strong>Paper submission deadline:</strong><br/> June 2, 2019</li>
-          <li><strong>Acceptance notice deadline:</strong><br/> July 14, 2019</li>
-          <li><strong>Camera-ready deadline:</strong><br/> September 1, 2019</li>
+          <li><strong>Paper submission:</strong><br/> June 2, 2019</li>
+          <li><strong>Acceptance notification:</strong><br/> July 14, 2019</li>
+          <li><strong>Camera-ready:</strong><br/> September 1, 2019</li>
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>
@@ -72,7 +79,6 @@ const IndexPage = () => (
     <br/><br/>
     <p>
     
-    {/*<Publishers />*/}
     <Sponsors />
 
     </p>
