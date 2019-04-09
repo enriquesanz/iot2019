@@ -23,8 +23,8 @@ const IndexPage = () => (
     </section>
 
     <br/>
-    <div className="flex">
-      <div className="md:w-4/5 md:mr-8">
+    <div className="block xl:flex md:flex sm:block">
+      <div className="flex-2 md:w-4/5 md:mr-8">
         <p className="font-sans leading-normal text-lg text-justify">
         
         The 9th International Conference on the Internet of Things (IoT 2019), building on the success of its predecessors since 2008, is the premier forum  to share, 
@@ -45,11 +45,10 @@ const IndexPage = () => (
         <br/>
         </p>
         <br/>
-        
-                
-       
       </div>
-      <div className="md:w-1/3 md:mr-8">
+
+
+      <div className="flex-1 md:w-1/3 md:mr-8">
         <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
         <h4 className="font-serif text-grey-darker">Key Dates:</h4>
         <ul className="sm:list-reset">
