@@ -11,7 +11,7 @@ const CFPPage = () => (
       title="CFP"
       keywords={[`iot2019`, `conference`, `iot` ]}
     />
-  <div className="flex flex-col md:flex-row items-center">
+  <div className="block flex-col md:flex-row items-center">
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-red-light  font-sans leading-normal text-lg pl-4 text-justify">
       <h1 className="text-grey-darker font-serif">Call for papers</h1>
@@ -22,7 +22,7 @@ const CFPPage = () => (
       </p>
 
     <br />
-      <div className="flex">
+      <div className="block md:flex xl:flex">
       <p className="font-sans leading-loose pl-20">
       
       <Link
