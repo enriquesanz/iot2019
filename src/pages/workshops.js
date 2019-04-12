@@ -13,6 +13,8 @@ const WorkshopsPage = () => (
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-green-lighter font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Workshop Proposals</h1>
+      <p className="text-left text-teal">
+      <a class="no-underline text-teal hover:font-bold" href = "mailto:iot2019@deusto.es?subject=[iot2919][workshop]"><strong><font color="grey">Contact:</font></strong> iot2019@deusto.es</a></p><br />
       Workshops collocated with the 9th International Conference on the Internet of Things (IoT 2019) are opportunities to strengthen communities of researchers and practitioners working in specific topics related to the IoT. These events foster the exchange of new ideas, ongoing work, and latests results, in established or emerging sub-domains of interest. They are opportunities for IoT pioneers and practitioners in industry to share hands-on experience with IoT systems (use cases, deployments, architectures, etc.), and for researchers to present and receive feedback on early research result. Approved workshops  will be announced on the conference website.
 
 
@@ -96,6 +98,7 @@ const WorkshopsPage = () => (
             <li>Workshop attendees should only register on the conference without paying an extra fee for the workshops.</li>
             <li>Workshop organizers will be provided of specific physical space on site according to the number of participants.</li>
             <li>All Workshop will be announced in the website of the conference as a collocated event.</li>
+            <li>Best papers from workshops will be invited to extend and improve their contributions to an <a class="no-underline text-teal hover:font-bold" href="https://www.mdpi.com/journal/futureinternet" target="_blank" rel="noopener noreferrer">Special Issue in Future Internet MDPI journal</a>.</li>
         </ul>        
         <br /><br />
         

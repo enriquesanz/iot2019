@@ -66,6 +66,14 @@ const Header = () => {
             >
               Registration
             </Link>
+
+            <Link
+              to="/program"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+            >
+              Program
+            </Link>
+            
             <Link
               to="/keynotes"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"

@@ -13,6 +13,9 @@ const DoctoralPage = () => (
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-purple-light font-sans leading-normal pl-4 text-justify text-lg">
       <h1  className="text-grey-darker font-serif">Doctoral Consortium</h1>
+      <p className="text-left text-teal">
+      <a class="no-underline text-teal hover:font-bold" href = "mailto:iot2019@deusto.es?subject = [iot2019][doctoral]"><strong><font color="grey">Contact:</font></strong> iot2019@deusto.es</a></p><br />
+
       The Doctoral Consortium is a special session of the conference where PhD students in the early phases of their research can receive advice in a constructive atmosphere and grow their research network. Students present and discuss their early research with other PhD students and a panel of established researchers and practitioners in the area of the Internet of Things. In particular given the setup of the IoT conference as in-between research and applications, this is a great opportunity for PhD students to have their research and ideas exposed to industrial researchers, and the DC chairs will attempt to attract suitable persons to the Consortium.
       <br /><br />
       For the IoT 2019 Doctoral Consortium, we are seeking for original early research by PhD students on all topics related to the development and adoption of the Internet of Things.   Recommended topics of submission are as follows, but not limited to.

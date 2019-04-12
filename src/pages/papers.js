@@ -13,6 +13,8 @@ const PapersPage = () => (
     <div className="md:w-3/3 md:mr-4">
       <p className="border-l-4 border-red-light  font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Full and short papers</h1>
+      <p className="text-left text-teal">
+      <a class="no-underline text-teal hover:font-bold" href = "mailto:iot2019@deusto.es?subject = [iot2019][papers]"><strong><font color="grey">Contact:</font></strong> iot2019@deusto.es</a></p><br />
       With the advent of digitized physical objects and communicating machines and vehicles, the Internet of Things has become an exciting field of research encompassing Pervasive Computing, Cyber-Physical Systems, and Communication technologies. Particular challenges include the understanding of IoT application demands and novel network traffic types, low latency and reliable communication, and integrating and mediating things within intelligent systems where IoT technologies are potential catalysts. In addition, a better understanding of impending social and societal impacts is vital to the success of the IoT.
       <br />
       <br />      

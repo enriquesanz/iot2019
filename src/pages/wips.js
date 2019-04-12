@@ -13,6 +13,9 @@ const WipsPage = () => (
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-yellow-dark font-sans leading-normal pl-4 text-justify text-lg">
       <h1 className="text-grey-darker font-serif">Posters and Demo sessions</h1>
+      <p className="text-left text-teal">
+      <a class="no-underline text-teal hover:font-bold" href = "mailto:iot2019@deusto.es?subject = [iot2019][wips]"><strong><font color="grey">Contact:</font></strong> iot2019@deusto.es</a></p><br />
+
       The objective of the Posters and Demo sessions is to give researchers in the emerging research areas of IoT and their applications the opportunity to present early and fresh, in-progress results to share experiences and strategies while facilitating the discussion between authors and conference attendees.
       <br />
       </p>

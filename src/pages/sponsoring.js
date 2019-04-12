@@ -3,12 +3,13 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Publishers from "../components/publishers";
-import PackagesIoT from "../images/IoT-Sponsorship-Offers.pdf";
+import PackagesIoT from "../files/IoT-Sponsorship-Offers.pdf";
 import ComSoc from "../images/sponsors/logoIoT.png";
 import EC from "../images/sponsors/EC-Council.png";
 import Deusto from "../images/sponsors/Deusto.jpeg";
+import FI from '../images/SI/futureinternet-logo.png'
 
-const AboutPage = () => (
+const SponsorsPage = () => (
   <Layout>
     
     <SEO
@@ -41,7 +42,7 @@ const AboutPage = () => (
         <p className="text-sm text-dark flex items-center">
           <strong>Sponsors</strong>
         </p>
-        <div className="w-full"><img src={Deusto} alt="Platinium"/></div>
+        <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
         <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div>
       </div>
       <br/>
@@ -51,6 +52,7 @@ const AboutPage = () => (
         </p>
       <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
       <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
+      <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/futureinternet" target="_blank" rel="noopener noreferrer"><img src={FI}/></a></div>
       </div>
       <br/>
 
@@ -58,8 +60,8 @@ const AboutPage = () => (
         <p className="text-sm text-dark flex items-center">
           <strong>Friends of IoT Conference</strong>
         </p>
-        <div className="w-full"><img src={EC} alt="ComSoc"/></div>
-        <div className="w-full"><img src={ComSoc} alt="ComSoc"/></div>
+        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.eccouncil.org/" target="_blank" rel="noopener noreferrer"><img src={EC} alt="EC"/></a></div>
+        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="http://iot.committees.comsoc.org/" target="_blank" rel="noopener noreferrer"><img src={ComSoc} alt="ComSoc"/></a></div>
       </div>        
 
     </p>
@@ -67,4 +69,4 @@ const AboutPage = () => (
   </Layout>
 );
 
-export default AboutPage
+export default SponsorsPage
