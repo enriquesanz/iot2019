@@ -20,7 +20,7 @@ const PapersPage = () => (
       <br />      
 
       IoT 2019 is seeking for original, high impact research papers on all topics related to the development and adoption of the Internet of Things. Papers will be reviewed and selected based on technical novelty, integrity of the analysis and social impacts and practical relevance.  
-      Papers have to be submitted via the <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/" target="_blank" rel="noopener noreferrer">EasyChair conference system.</a>
+      Papers have to be submitted via the <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/my/conference?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system.</a>
       </p>
 
     <br /><br />
@@ -62,7 +62,7 @@ const PapersPage = () => (
         </p>
         <br /><br />
         <h2 className="text-teal font-serif">Preparing and Submitting Your Papers:</h2>
-        Researchers interested should submit their paper via our  <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/" target="_blank" rel="noopener noreferrer">EasyChair conference system</a>, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere. Full papers should not exceed 8 pages and the limit for short papers is 4 pages, including figures and references. 
+        Researchers interested should submit their paper via our  <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/my/conference?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a>, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere. Full papers should not exceed 8 pages and the limit for short papers is 4 pages, including figures and references. 
         <br /><br />The paper layout should follow the <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer">ACM SIGCHI Conference format</a>. 
         Papers will be peer-reviewed by three experts of the scientific committee following a single-blind review process (i.e. identity of the reviewer is anonymous, but the author’s name and affiliation are on the paper). The papers will be selected based on technical novelty, integrity of the analysis, and practical relevance and impact. 
         <br />Accepted papers will be listed on DBLP and published via the ACM Digital Library. Cases of plagiarism or multiple submissions will be subject to disciplinary action as per ACM rules and regulations, and no-shows at the conference will result in an exclusion from the ACM Digital Library.

@@ -6,6 +6,7 @@ import Publishers from "../components/publishers";
 import PackagesIoT from "../files/IoT-Sponsorship-Offers.pdf";
 import ComSoc from "../images/sponsors/logoIoT.png";
 import EC from "../images/sponsors/EC-Council.png";
+import IoTCouncil from "../images/sponsors/counciliot.png";
 import Deusto from "../images/sponsors/Deusto.jpeg";
 import FI from '../images/SI/futureinternet-logo.png'
 
@@ -34,21 +35,20 @@ const SponsorsPage = () => (
 
         
       </div>
-
     <p>
-    
 
       <div className="flex flex-col ">
-        <p className="text-sm text-dark flex items-center">
+        <p className="text-sm text-dark flex items-center text-teal">
           <strong>Sponsors</strong>
         </p>
         <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
-        <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div>
+        {/*<div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div> */}
       </div>
       <br/>
       <div className="flex flex-col ">
-        <p className="text-sm text-dark flex items-center">
+        <p className="text-sm text-dark flex items-center text-teal">
           <strong>Contributors</strong>
+
         </p>
       <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
       <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
@@ -57,11 +57,12 @@ const SponsorsPage = () => (
       <br/>
 
       <div className="flex flex-col">
-        <p className="text-sm text-dark flex items-center">
+        <p className="text-sm text-dark flex items-center text-teal">
           <strong>Friends of IoT Conference</strong>
         </p>
         <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.eccouncil.org/" target="_blank" rel="noopener noreferrer"><img src={EC} alt="EC"/></a></div>
         <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="http://iot.committees.comsoc.org/" target="_blank" rel="noopener noreferrer"><img src={ComSoc} alt="ComSoc"/></a></div>
+        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.theinternetofthings.eu/" target="_blank" rel="noopener noreferrer"><img src={IoTCouncil} alt="ComSoc"/></a></div>
       </div>        
 
     </p>
