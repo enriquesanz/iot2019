@@ -24,15 +24,15 @@ const SponsorsPage = () => (
           <h1 className="text-grey-darker font-serif">Sponsoring</h1>
           The International Conference on the Internet of Things offers a unique opportunity for organizations to introduce their latest products and research, gain feedback and establish collaborative relationships with an international audience of technical and business leaders in the Internet of Things (IoT) field. We sincerely look forward to your participation and support. 
           <br/><br/>
+        </p>
+        <p className="border-l-4 border-red-light font-sans leading-normal pl-4 text-lg text-justify">
           We offer five corporate support levels: Platinum, Gold, Silver, and Bronze. Our sponsorship packages range from €1,000 to €10,000 but we also customize them depending on your needs. 
           Please, download the <a class="no-underline text-teal hover:font-bold" href={PackagesIoT} target="_blank" rel="noopener noreferrer">pdf file</a> where the sponsoring packages are explained.
-          
-          <br/>
-          <br/>
-          Sponsors should contact IoT2019 organizing chair by email (<strong>iot2019@deusto.es</strong>).
-
+          <br/><br/>
         </p>
-
+        <p className="border-l-4 border-red-light font-sans leading-normal pl-4 text-lg text-justify">
+          Sponsors should contact IoT2019 organizing chair by email (<strong>iot2019@deusto.es</strong>).
+        </p>
         
       </div>
     <p>
@@ -42,7 +42,7 @@ const SponsorsPage = () => (
           <strong>Sponsors</strong>
         </p>
         <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
-        {/*<div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+GOLD+logo+here" alt="Gold"/></div> */}
+        
       </div>
       <br/>
       <div className="flex flex-col ">
