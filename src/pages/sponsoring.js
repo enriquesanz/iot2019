@@ -1,8 +1,6 @@
 import React from 'react'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
-import Sponsors from "../components/sponsors";
-import Publishers from "../components/publishers";
 import PackagesIoT from "../files/IoT-Sponsorship-Offers.pdf";
 import ComSoc from "../images/sponsors/logoIoT.png";
 import EC from "../images/sponsors/EC-Council.png";
@@ -50,8 +48,8 @@ const SponsorsPage = () => (
           <strong>Contributors</strong>
 
         </p>
-      <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
-      <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>
+      {/*<div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
+      <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>*/}
       <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/futureinternet" target="_blank" rel="noopener noreferrer"><img src={FI} alt="FutureInternet"/></a></div>
       </div>
       <br/>

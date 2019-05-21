@@ -2,7 +2,6 @@ import React from "react";
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
-import Publishers from "../components/publishers";
 import Dipina from "../images/committee/dipina.jpg";
 import Kyriakos from "../images/committee/kyriakos.jpg";
 import Karin from "../images/committee/Karin.jpeg";
@@ -21,7 +20,6 @@ import Aitor from "../images/committee/aitor.jpg";
 import Felix from "../images/committee/felix.jpeg";
 import Enrique from "../images/committee/kike.jpg";
 import Ane from "../images/committee/ane.jpg";
-import Avatar from "../images/committee/avatar.png";
 import Latif from "../images/committee/latif.png";
 import Ruben from "../images/committee/ruben.png";
 import Oihane from "../images/committee/oihane.jpg";
@@ -261,6 +259,7 @@ const CommitteePage = () => (
               <li>Iva  Bojic, SMART (USA)</li>
               <li>Raymond  Bond,  Ulster University (Northern Ireland)</li>
               <li>Anei Ciortea, University of St. Gallen (Switzerland)</li>
+              <li>Liming Chen, De Montfort University (UK)</li>
               <li>Giuseppe Di Modica ,University of Catania (Italy)</li>
               <li>Carolina Fuentes, University of Nottingham  (UK)</li>
               <li>Borja Gamecho, Wimbi Technologies S.L. (Spain)</li>

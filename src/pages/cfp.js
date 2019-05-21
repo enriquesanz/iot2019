@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'gatsby'
 import Sponsors from "../components/sponsors";
-import Publishers from "../components/publishers";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import CFPpdf from "../files/CFP.pdf";

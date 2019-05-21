@@ -16,9 +16,9 @@ const Sponsors = () => (
         </p>
 
         <div className="flex">
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={ACM} /></div>
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={SIGCHI} /></div>
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={ICPS} /></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={ACM} alt="ACM"/></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={SIGCHI} alt="SIGCHI"/></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><img src={ICPS} alt="ICPS"/></div>
                 
         </div>
     

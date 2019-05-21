@@ -2,9 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Index from "../images/index_resize_logos.png";
-import GatsbyLink from "gatsby-link";
 import Sponsors from "../components/sponsors";
-import Publishers from "../components/publishers";
 import FGCS from '../images/SI/FGCS.jpg'
 import SENSORS from '../images/SI/sensors.png'
 import PUC from '../images/SI/PUC.jpg'
@@ -48,10 +46,10 @@ const IndexPage = () => (
         <br/>
         <h4 className=" font-serif text-grey-darker text-left">Special Issues:</h4>
         <div className="flex">
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-internet-of-people-human-driven-artificial" target="_blank" rel="noopener noreferrer"><img src={FGCS} /></a></div>
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/sensors/special_issues/Fog_Edge_IoT?view=compact&listby=date" target="_blank" rel="noopener noreferrer"><img src={SENSORS} /></a></div>
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.facebook.com/notes/personal-and-ubiquitous-computing/social-networks-and-social-ubiquitous-computing-cfp/10155773077520458/" target="_blank" rel="noopener noreferrer"><img src={PUC} /></a></div>
-                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://wol-prod-cdn.literatumonline.com/pb-assets/assets/21613915/Cross-layer%20innovations%20in%20Internet%20of%20Things%20050319.pdf" target="_blank" rel="noopener noreferrer"><img src={TRAN} /></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.journals.elsevier.com/future-generation-computer-systems/call-for-papers/special-issue-on-internet-of-people-human-driven-artificial" target="_blank" rel="noopener noreferrer"><img src={FGCS} alt="FGCS"/></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/sensors/special_issues/Fog_Edge_IoT?view=compact&listby=date" target="_blank" rel="noopener noreferrer"><img src={SENSORS} alt="Sensors"/></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.facebook.com/notes/personal-and-ubiquitous-computing/social-networks-and-social-ubiquitous-computing-cfp/10155773077520458/" target="_blank" rel="noopener noreferrer"><img src={PUC} alt="PUC"/></a></div>
+                <div className="flex-1 text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://wol-prod-cdn.literatumonline.com/pb-assets/assets/21613915/Cross-layer%20innovations%20in%20Internet%20of%20Things%20050319.pdf" target="_blank" rel="noopener noreferrer"><img src={TRAN} alt="TRAN"/></a></div>
                 
                 
         </div>

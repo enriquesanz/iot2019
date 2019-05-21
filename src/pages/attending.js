@@ -6,7 +6,6 @@ import HotelsTable from "../images/mapa.png";
 import HotelsMap from "../images/hotels.png";
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
-import Publishers from "../components/publishers";
 import SEO from '../components/seo'
 
 

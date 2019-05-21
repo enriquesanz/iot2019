@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import Logo from '../images/iot2019.png'
-import ACM from '../images/acm_small.png'
 
 const handleClick = ev => {
   ev.preventDefault()
@@ -24,7 +23,7 @@ const Header = () => {
     <nav className="bg-teal">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline text-white">
-        <img className="h-auto" src={Logo} />
+        <img className="h-auto" src={Logo} alt="IoT2019"/>
         
         </Link>
 
