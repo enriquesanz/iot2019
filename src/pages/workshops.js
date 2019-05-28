@@ -55,7 +55,7 @@ const WorkshopsPage = () => (
         <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
+            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
             <li><strong className="text-grey-darker">Notifications:</strong> June 21, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>

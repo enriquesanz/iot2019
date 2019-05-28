@@ -51,7 +51,7 @@ const WipsPage = () => (
       <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Due:</strong> July 21, 2019</li>
+            <li><strong className="text-grey-darker">Submissions:</strong> July 21, 2019 (<a class="no-underline hover:font-bold text-grey-darker" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
             <li><strong className="text-grey-darker">Notifications:</strong> August  20, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> September 1, 2019 </li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>

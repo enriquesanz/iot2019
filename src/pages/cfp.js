@@ -15,7 +15,7 @@ const CFPPage = () => (
     <div className="md:w-3/3 md:mr-8">
       <p className="border-l-4 border-red-light  font-sans leading-normal text-lg pl-4 text-justify">
       <h1 className="text-grey-darker font-serif">Call for papers</h1>
-      <p className="text-left">(<a class="no-underline text-teal hover:font-bold" href="https://morelab.deusto.es/media/redactor/2cfp.txt" target="_blank" rel="noopener noreferrer">txt</a>, <a class="no-underline text-teal hover:font-bold" href={CFPpdf} target="_blank" rel="noopener noreferrer">pdf</a>)</p>
+      <p className="text-left">(<a class="no-underline text-teal hover:font-bold" href="/CFPtxt" >txt</a>, <a class="no-underline text-teal hover:font-bold " href={CFPpdf} target="_blank" rel="noopener noreferrer">pdf</a>)</p>
       <p className="text-left text-teal">
       <a class="no-underline text-teal hover:font-bold" href = "mailto:iot2019@deusto.es?subject = [iot2019]"><strong><font color="grey">Contact:</font></strong> iot2019@deusto.es</a></p>
       <br />Driven by connected, low-cost sensing and actuation and the large host of scientifically and economically relevant application scenarios that they enable, the Internet of Things has become a central research area with a broad reach across many fields in information technology and adjacent domains. The International Conference on Internet of Things (IoT) has become the premier gathering place where visionary, ground-breaking research in the IoT field meets leading industry experts. Since its beginnings in the year 2008, IoT has been backed by strong support from leading academic institutions as well as industry and we are happy to announce its 9th iteration will take place from October 22-25th 2019 in Bilbao, Spain.
@@ -38,7 +38,7 @@ const CFPPage = () => (
 
       
         <ul>
-          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
+          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
           <li><strong className="text-grey-darker">Notifications:</strong> July 14, 2019 </li>
           <li><strong className="text-grey-darker">Camera ready:</strong> September 1, 2019</li>
         </ul>
@@ -70,7 +70,7 @@ const CFPPage = () => (
       <p className="text-teal text-left">(Call for Workshops)</p>
 
         <ul>
-          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
+          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
           <li><strong className="text-grey-darker">Notifications:</strong> June 21, 2019</li>
           <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
         </ul>

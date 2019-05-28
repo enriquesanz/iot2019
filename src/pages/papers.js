@@ -54,7 +54,7 @@ const PapersPage = () => (
         <br />
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
+            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
             <li><strong className="text-grey-darker">Notifications:</strong> July 14, 2019 </li>
             <li><strong className="text-grey-darker">Camera-ready:</strong> September 1, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
@@ -65,7 +65,7 @@ const PapersPage = () => (
         <br />
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">ACM SIGCHI Conference format: :</strong> <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer">ACM SIGCHI Conference format</a> (<a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/gallery/tagged/acm-official#.WOuOk2e1taQ" target="_blank" rel="noopener noreferrer">overleaf</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip" target="_blank" rel="noopener noreferrer">latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout-.docx" target="_blank" rel="noopener noreferrer">docx</a>) </li>
+            <li><strong className="text-grey-darker">ACM SIGCHI Conference format:</strong> <a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/gallery/tagged/acm-official#.WOuOk2e1taQ" target="_blank" rel="noopener noreferrer">overleaf</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip" target="_blank" rel="noopener noreferrer">latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout-.docx" target="_blank" rel="noopener noreferrer">docx</a> </li>
             <li><strong className="text-grey-darker">Full papers:</strong> max. 8 pages</li>
             <li><strong className="text-grey-darker">Short papers:</strong> max. 4 pages</li>
             <li><strong className="text-grey-darker">Submission:</strong> <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/my/conference?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a></li>
