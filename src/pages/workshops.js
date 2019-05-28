@@ -55,7 +55,7 @@ const WorkshopsPage = () => (
         <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Proposals Due:</strong> June 2, 2019</li>
+            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (11:59 pm CET)</li>
             <li><strong className="text-grey-darker">Notifications:</strong> June 9, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>

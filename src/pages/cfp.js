@@ -38,7 +38,7 @@ const CFPPage = () => (
 
       
         <ul>
-          <li><strong className="text-grey-darker">Submissions:</strong> June 2, 2019</li>
+          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (11:59 pm CET)</li>
           <li><strong className="text-grey-darker">Notifications:</strong> July 14, 2019 </li>
           <li><strong className="text-grey-darker">Camera ready:</strong> September 1, 2019</li>
         </ul>
@@ -61,6 +61,20 @@ const CFPPage = () => (
 
       <p className="font-sans leading-loose pl-20">
 
+      <Link
+              to="/workshops"
+              className=" text-teal hover:text-red-light"
+            >
+              <h2 className="font-serif">Workshops proposals</h2>
+      </Link>
+      <p className="text-teal text-left">(Call for Workshops)</p>
+
+        <ul>
+          <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-purple-light text-lg">June 16, 2019</strong> (11:59 pm CET)</li>
+          <li><strong className="text-grey-darker">Notifications:</strong> June 9, 2019</li>
+          <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
+        </ul>
+        
         <Link
               to="/doctoral"
               className=" text-teal hover:text-red-light"
@@ -75,21 +89,7 @@ const CFPPage = () => (
             <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
             </ul>
 
-        <Link
-              to="/workshops"
-              className=" text-teal hover:text-red-light"
-            >
-              <h2 className="font-serif">Workshops proposals</h2>
-        </Link>
-        <p className="text-teal text-left">(Call for Workshops)</p>
-
-          <ul>
-            <li><strong className="text-grey-darker">Proposals Due:</strong> June 2, 2019</li>
-            <li><strong className="text-grey-darker">Notifications:</strong> June 9, 2019</li>
-            <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 9, 2019</li>
-          </ul>
-
-
+        
       </p>      
       </div>
       <br/><br/>

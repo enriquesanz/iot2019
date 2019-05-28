@@ -260,6 +260,7 @@ const CommitteePage = () => (
               <li>Raymond  Bond,  Ulster University (Northern Ireland)</li>
               <li>Anei Ciortea, University of St. Gallen (Switzerland)</li>
               <li>Liming Chen, De Montfort University (UK)</li>
+              <li>Paul Davidsson, Malmo University (Sweeden)</li>
               <li>Giuseppe Di Modica ,University of Catania (Italy)</li>
               <li>Carolina Fuentes, University of Nottingham  (UK)</li>
               <li>Borja Gamecho, Wimbi Technologies S.L. (Spain)</li>
@@ -279,7 +280,6 @@ const CommitteePage = () => (
               <li>Mikel  Larrea,  UPV/EHU (Spain)</li>
               <li>Marino Linaje,  University of Extremadura (Spain)</li>
               <li>Lionel Medini,  LIRIS lab. / Université de Lyon (France)</li>
-              <li>Florian  Michahelles, Siemens Corporation (USA)</li>
               <li>Maurice  Mulvenna,  Ulster University (Northern Ireland)</li>
               <li>David  Palma , NTNU (Norway)</li>
               <li>Luigi  Patrono, University of Salento (Italy)</li>
@@ -293,7 +293,7 @@ const CommitteePage = () => (
               <li>Kristof  Van Laerhoven, University of Siegen (Germany)</li>
               <li>Mario  Vega-Barbas, Universidad Politécnica de Madrid (Spain)</li>
               <li>Nervo  Verdezoto, University of Leicester (UK)</li>
-              <li>Bahtijar Vogel, Malmo University (Norway)</li>
+              <li>Bahtijar Vogel, Malmo University (Sweeden)</li>
               <li>Felix Wortmann, University of St. Gallen (Switzerland)</li>
               
             </ul>

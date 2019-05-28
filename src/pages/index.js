@@ -60,13 +60,13 @@ const IndexPage = () => (
         <p className="border-l-4 border-purple-light font-sans leading-loose pl-4 text-left">
         <h4 className="font-serif text-grey-darker">Key Dates:</h4>
         <ul className="sm:list-reset">
-          <li><strong>Paper submission:</strong><br/> June 2, 2019</li>
+          <li><strong>Paper submission:</strong><br/><strike className="text-red-light"> June 2, 2019</strike><br/> <strong className="text-teal text-lg">June 16, 2019</strong></li>
           <li><strong>Acceptance notification:</strong><br/> July 14, 2019</li>
           <li><strong>Camera-ready:</strong><br/> September 1, 2019</li>
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br />
         
         <p className=" font-sans leading-loose text-left border-l-4 border-purple-light pl-4">
           <h4 className=" font-serif text-grey-darker">Previous IoT conferences:</h4>
