@@ -49,7 +49,7 @@ const DoctoralPage = () => (
         
         </ul>
        <br /><br />
-      <h2 className="text-teal font-serif">Important Dates</h2>
+      <h2 className="text-teal font-serif">Important Dates:</h2>
       <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">

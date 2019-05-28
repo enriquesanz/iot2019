@@ -50,11 +50,11 @@ const PapersPage = () => (
            <li><strong>Societal Impact of the IoT:</strong> To understand the impact of millions of IoT devices on society, case studies are encouraged that emerge from living in hyper-connected societies where automation through IoT and delegation of tasks is present. Advances on the Social Internet of Things and bridging IoT intelligence and human intelligence to cope with societal challenges (e.g. sustainability, wellbeing, food security or secure societies) are complementary to the conference scope.</li>        
         </ul>
         <br /><br />
-        <h2 className="text-teal font-serif">Important Dates</h2>
+        <h2 className="text-teal font-serif">Important Dates:</h2>
         <br />
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (11:59 pm CET) </li>
+            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
             <li><strong className="text-grey-darker">Notifications:</strong> July 14, 2019 </li>
             <li><strong className="text-grey-darker">Camera-ready:</strong> September 1, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
@@ -62,6 +62,16 @@ const PapersPage = () => (
         </p>
         <br /><br />
         <h2 className="text-teal font-serif">Preparing and Submitting Your Papers:</h2>
+        <br />
+        <p className="pl-4">
+          <ul className="sm:list-reset">
+            <li><strong className="text-grey-darker">ACM SIGCHI Conference format: :</strong> <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer">ACM SIGCHI Conference format</a> (<a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/gallery/tagged/acm-official#.WOuOk2e1taQ" target="_blank" rel="noopener noreferrer">overleaf</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip" target="_blank" rel="noopener noreferrer">latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout-.docx" target="_blank" rel="noopener noreferrer">docx</a>) </li>
+            <li><strong className="text-grey-darker">Full papers:</strong> max. 8 pages</li>
+            <li><strong className="text-grey-darker">Short papers:</strong> max. 4 pages</li>
+            <li><strong className="text-grey-darker">Submission:</strong> <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/my/conference?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a></li>
+          </ul>
+        </p>
+        <br />
         Researchers interested should submit their paper via our  <a class="no-underline text-teal hover:font-bold" href="https://easychair.org/my/conference?conf=iot2019" target="_blank" rel="noopener noreferrer">EasyChair conference system</a>, must be written in English and contain original material that has not been published or is currently undergoing review elsewhere. Full papers should not exceed 8 pages and the limit for short papers is 4 pages. Both limits include figures and references. 
         <br /><br />The paper layout should follow the <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer">ACM SIGCHI Conference format</a> (<a class="no-underline text-teal hover:font-bold" href="https://www.overleaf.com/gallery/tagged/acm-official#.WOuOk2e1taQ" target="_blank" rel="noopener noreferrer">overleaf</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip" target="_blank" rel="noopener noreferrer">latex</a>, <a class="no-underline text-teal hover:font-bold" href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout-.docx" target="_blank" rel="noopener noreferrer">docx</a>). Please, authors using Latex use the "sample-sigconf.tex" file included in the zip to write your manuscript. 
         <br /><br />Papers will be peer-reviewed by three experts of the scientific committee following a single-blind review process (i.e. identity of the reviewer is anonymous, but the author’s name and affiliation are on the paper). The papers will be selected based on technical novelty, integrity of the analysis, and practical relevance and impact. 

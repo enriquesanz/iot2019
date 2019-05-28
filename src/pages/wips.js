@@ -47,7 +47,7 @@ const WipsPage = () => (
         <li><strong>Societal Impact of the IoT:</strong> To understand the impact of millions of IoT devices on society, case studies are encouraged that emerge from living in hyper-connected societies where automation through IoT and delegation of tasks is present. Advances on the Social Internet of Things and bridging IoT intelligence and human intelligence to cope with societal challenges (e.g. sustainability, wellbeing, food security or secure societies) are complementary to the conference scope.</li>
       </ul>
       <br /><br />
-      <h2 className="text-teal font-serif">Important Dates</h2>
+      <h2 className="text-teal font-serif">Important Dates:</h2>
       <br/>
         <p className="pl-4">
           <ul className="sm:list-reset">
