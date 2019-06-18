@@ -54,8 +54,8 @@ const PapersPage = () => (
         <br />
         <p className="pl-4">
           <ul className="sm:list-reset">
-            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike> <strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>
-            <li><strong className="text-grey-darker">Notifications:</strong> July 14, 2019 </li>
+            <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike>  <strike className="text-purple-light"><strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019 </li>
             <li><strong className="text-grey-darker">Camera-ready:</strong> September 1, 2019</li>
             <li><strong className="text-grey-darker">Conference:</strong> October 22-25, 2019</li>
           </ul>
