@@ -273,6 +273,7 @@ const CommitteePage = () => (
               <li>Pasquier Jacques, University of Fribourg (Switzerland)</li>
               <li>Stamatis Karnouskos , SAP (Germany)</li>
               <li>Wolfgang Kastner, TU Wien (Austria)</li>
+              <li>Albrecht Kurze, TU Chemnitz (Germany)</li>
               <li>Zaheer Khan,  University of the West of England Bristol (UK)</li>
               <li>Roman  Kolcun,  Imperial College London (UK)</li>
               <li>Stelios  Krinidis,  CERTH/ITI (Greece)</li>
