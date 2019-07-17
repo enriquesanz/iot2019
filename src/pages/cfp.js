@@ -39,7 +39,7 @@ const CFPPage = () => (
       
         <ul>
           <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/>  <strike className="text-purple-light"><strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>
-          <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019 </li>
+          <li><strong className="text-grey-darker">Notifications:</strong> July 21, 2019 </li>
           <li><strong className="text-grey-darker">Camera ready:</strong> September 1, 2019</li>
         </ul>
 
@@ -52,7 +52,7 @@ const CFPPage = () => (
       <p className="text-teal text-left">(Call for Posters and Demos)</p>
 
           <ul>
-            <li><strong className="text-grey-darker">Due:</strong> July 21, 2019</li>
+            <li><strong className="text-grey-darker">Due:</strong> July 28, 2019</li>
             <li><strong className="text-grey-darker">Notifications:</strong> August  20, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> September 1, 2019 </li>
           </ul>
@@ -72,7 +72,7 @@ const CFPPage = () => (
         <ul>
           <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strike className="text-purple-light"><strong className="text-purple-light text-lg">June 23, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>
           <li><strong className="text-grey-darker">Notifications:</strong> June 25, 2019</li>
-          <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 14, 2019</li>
+          <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 21, 2019</li>
         </ul>
         
         <Link
@@ -85,7 +85,7 @@ const CFPPage = () => (
       
           <ul>
             <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 28, 2019</strike><br/> <strong className="text-purple-light text-lg">July 5, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>          
-            <li><strong className="text-grey-darker">Notifications:</strong> July 16, 2019</li>
+            <li><strong className="text-grey-darker">Notifications:</strong> July 21, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
             </ul>
 

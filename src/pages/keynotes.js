@@ -18,7 +18,7 @@ const KeynotesPage = () => (
           <h1>Keynotes</h1>
         </p>
         <br />  
-            <div className="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            {/*<div className="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
               <div className="mb-12">
                 <p className="text-sm text-grey-dark flex items-center">
                   Abstract
@@ -40,7 +40,7 @@ const KeynotesPage = () => (
               
                 <p className="text-grey-darker text-base text-justify">Julie A. McCann is a Professor in Computer Systems at Imperial College. Her research centres on highly decentralized and self-organizing scalable algorithms for spatial computing systems e.g. wireless sensing networks. or cyber-physical systems. She leads the Adaptive Embedded Systems Engineering Research Group and Directed the Intel Collaborative Research Institute for Sustainable Cities, and is currently working with IBM, CISCO and others on substantive smart city projects. She has received significant funding though bodies such as the UK's EPSRC and NERC as well as various international funds, and is an elected peer for the EPSRC. She has actively served on, and chaired, many conference committees and is a Fellow of the BCS and Charted Engineer.</p>
               </div>
-            </div>
+            </div>*/}
 
           <br />
 
