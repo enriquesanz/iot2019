@@ -17,27 +17,69 @@ const ProgramPage = () => (
          <br />
 
           <div className="block md:flex xl:flex">
-            <p className="font-sans leading-loose pl-8 ">
-              Program will be announced soon.
-          
-            </p>
+            The full program will be anounced soon.
           </div>          
     
     </p>
      <br /> <br />
     <div className="flex">
+
       <p className="font-sans leading-normal pl-4 text-justify text-lg  ">
+        <h2 className="text-teal font-serif">Accepted papers</h2>
+        <h3 className="text-grey-darker font-serif">Full Papers</h3>
+        <ul>
+          <li>Providing Fault Tolerance via Complex Event Processing and Machine Learning for IoT Systems</li>
+          <li>Interoperable Digital Twins in IIoT Systems by Transformation of Information Models</li>
+          <li>Quality-aware Service Selection Approach for Adaptive Context Recognition in IoT</li>
+          <li>Achieving Accurate Room-Level Indoor Location Estimation with Emerging IoT Networks</li>
+          <li>How IOT and computer vision could improve the casting quality</li>
+          <li>Non-interactive Certificate Update Protocol for Efficient Authentication in IoT</li>
+          <li>A Scalable Software Update Service for IoT Devices in Urban Scenarios</li>
+          <li>Interactive Machine Learning for the Internet of Things: A Case Study on Activity Detection</li>
+          <li>Scalable Identity and Key Management for Publish-Subscribe Protocols in the Internet-of-Things</li>
+          <li>MyAQI: Context-aware Outdoor Air Pollution Monitoring System</li>
+          <li>Energy-Accuracy Tradeoff for Efficient Noise Monitoring and Prediction inWorking Environments</li>
+          <li>Blockchain-based Data Provenance for the Internet of Things</li>
+          <li>Simplicity is Best: Addressing the Computational Cost of Machine Learning Classifiers in Constrained Edge Devices</li>
+          <li>Using BPM Technology to Deploy and Manage Distributed Analytics in Collaborative IoT-Driven Business Scenarios</li>
+          <li>Real-time IoT Road Traffic Data Monitoring using LoRaWAN</li>
+          <li>MAPO: A Multi-Objective Model for IoT Application Placement in a Fog Environment</li>
+          <li>Towards Somaesthetic Smarthome Designs: Exploring Potentials and Limitations of an Affective Mirror</li>
+          <li>Enabling easyWeb of Things compatible device generation using a Model-Driven Engineering approach</li>
+          <li>Towards Identification of Packaged Products via Computer Vision</li>
+          <li>Escaping the Streetlight Effect: Semantic Hypermedia Search Enhances Autonomous Behavior in the Web of Things</li>
+        </ul>
+        <h3 className="text-grey-darker font-serif">Short Papers</h3>
+        <ul>
+        <li>The Makers’ Beehives: Smart Beehives for Monitoring Honey-Bees’ Activities</li>
+        <li>Embracing Opportunities of Livestock Big Data Integration with Privacy Constraints</li>
+        <li>User Involvement Matters: The Side-Effects of Automated Smart Objects in Pro-environmental Behaviour</li>
+        <li>WoTbench: A Benchmarking Framework for the Web of Things</li>
+        <li>Privacy-Preserving IoT Cloud Data Processing Using SGX</li>
+        <li>IoT fault management in cloud/fog environments</li>
+        <li>Trusted Lightweight Communication for IoT Systems Using Hardware Security</li>
+        <li>Put that Hologram there - Probing Mobile Interaction Experiences for a Vision of Mixed Material Public Spaces</li>        
+        </ul>            
+        <br />
+        <h2 className="text-teal font-serif">Accepted Doctoral Colloquium:</h2>
+          <ul>
+            <li>Network Coding for IIoT Multi-Cloud Environments</li>
+            <li>Achieving Robust and Reliable Wireless Communications in Hostile In-Car Environments</li>
+            <li>Asset-Oriented Access Control: Towards an IoT Framework</li>
+            <li>A Novel Semantic Complex Event Processing (SCEP) Framework for Stream Processing</li>
+          </ul>
+        <br />      
         <h2 className="text-teal font-serif">Accepted workshops:</h2>
         The accepted workshops are listed below:
-        <br /><br />
+        <br />
         <ul>
-          <li><strong>Learning from Smart Cities Open Research Experiences (SCORE)</strong> Research and development efforts into smart cities have myriad number of focus. For example, UK Department for Business, Innovation and Skills (BIS) definition: "smart cities a process rather than a static outcome, in which increased citizen engagement, hard infrastructure, social capital and digital technologies make cities more liveable, resilient and better able to respond to challenges", focuses on resilience and liveability. IBM’s definition: "(Smart City is) one that makes optimal use of all the interconnected information available today to better understand and control its operations and optimize the use of limited resources" focuses on use of information available. European Commission’s definition has focus on technologies: "Cities using technological solutions to improve the management and efficiency of the urban environment." There are also transnational and international differences between different countries and continents in terms of what makes a city ‘Smart’, or how they perceive what smart cities development requires. As the variety of perspectives highlight, smart cities development require multi-disciplinary efforts involving technologists, social/behaviour scientists, city planners, policy makers, engineers, data communication experts, and citizens, to name a few. Although on the rise, the current smart cities solutions are still maturing and not always utilising such multi-disciplinary expertise. Lessons also can be learned from the commonalities and differences in between different smart cities developments. Hence, greater benefits can be achieved by bringing together expertise from different communities, including IoT/Big Data, Policy Making, Social Science, and Citizen science with the potential application domain demands. Time is ripe to bring together these different disciplines related to smart cities open research and form an international community to identify the major challenges and research directions. The workshop is intended to make the first step in shaping such community and providing a forum that focuses on inter-disciplinary learnings related to smart cities.</li>
-          <li><strong>Connected World/Web & Semantic Interoperability Workshop - CWSI 2019</strong> A Connected World/Web of Things is an emerging area that not only requires development of infrastructure but also deployment of new data services capable of supporting multiple, scalable (cloud-based) and interoperable (cross-systems and cross-domain) applications. In the race of designing the Connected World/Web as part of the Future Internet architecture, academia and Information and Communication Technology (ICT) industry communities have realized that a common problem to be tackled is the interoperability of the data and their availability for providing information services. Worldwide there is an increasingly focusing on how to evolve communications technologies to enable a Connected World, thus Semantic-enabled Web of Things systems will need to interact and be interconnected for offering the always-promoted everything-connected interoperability paradigm. The Connected World/Web & Semantic Interoperability workshop provides to developers, scientific researchers, industry experts and general audience interested in the evolution of the Internet of connected things world, the possibility to explore interoperability research challenges and provide a room to expose their research scientific ideas and progress and also explore new trends and opportunities of using semantic web technologies for solving problems and creating new solutions on emerging specialized paradigms like the current Internet of connected Things or simply acknowledge as Internet of Things (IoT).</li>
-          <li><strong>1st Workshop on Cyber-Physical Social Systems for smart cities (CyPhySS4Cities) 2019</strong> The Smart City model is growing around the prototype of an urban environment with a new generation of innovative services for transportation, energy distribution, healthcare, environmental monitoring, business, emergency response, and social activities. Enabling the technology for such a setting requires a viewpoint of Smart Cities as system of cyber-physical and social systems (SCPSSs) which are the result of the integration of several technologies that cooperate to provide seamless services to end users.
-Such technologies enable the collection, storage, and processing of massive amount of data gathered from the environment and/or produced by citizens themselves. Social interactions amongst participants are promoted as well.
-ChyPhySS4Cities 2019 wants to present innovative research trends and to explore new challenges in the field of smart cities as a system of cyber – physical systems crossed with the social perspective. The aim of the workshop is to bring together researchers, practitioners, smart city operators and industries working in the field in order to cross-fertilize theoretical and practical aspects.will need to manually include the balance of text into column 2 on the next page. Use a good breaking point (like an end of a sentence).</li>
-          <li><strong>IoF2020: Internet of Food and Farm 2020</strong> The IoF2020 project is dedicated to accelerate adoption of IoT for securing sufficient, safe and healthy food and to strengthen competitiveness of farming and food chains in Europe. It will consolidate Europe’s leading position in the global IoT industry by fostering a symbiotic ecosystem of farmers, food industry, technology providers and research institutes. The IoF2020 consortium of 73 partners, led by Wageningen UR and other core partners of previous key projects such as FIWARE and IoT-A, will leverage the ecosystem and architecture that was established in those projects. The heart of the project is formed by 19 use cases grouped in 5 trials with end users from the Arable, Dairy, Fruits, Vegetables and Meat verticals and IoT integrators that will demonstrate the business case of innovative IoT solutions for a large number of application areas. A lean multi-actor approach focusing on user acceptability, stakeholder engagement and sustainable business models will boost technology and market readiness levels and bring end user adoption to the next stage.</li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://scoreworkshop2019.wordpress.com/" target="_blank" rel="noopener noreferrer">Learning from Smart Cities Open Research Experiences (SCORE)</a></strong> </li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="http://www.iot-cwsi.org/" target="_blank" rel="noopener noreferrer">Connected World/Web & Semantic Interoperability Workshop - CWSI 2019</a></strong> </li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://cpss.netsons.org/" target="_blank" rel="noopener noreferrer">1st Workshop on Cyber-Physical Social Systems for smart cities (CyPhySS4Cities) 2019</a></strong></li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://www.iof2020.eu/" target="_blank" rel="noopener noreferrer">IoF2020: Internet of Food and Farm 2020</a></strong></li>
         </ul>
+        
+        
 
       </p>
     </div>

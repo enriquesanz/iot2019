@@ -14,7 +14,7 @@ const RegistrationPage = () => (
       <p className="border-l-4 border-red-light  font-sans leading-normal text-lg pl-4 text-justify">
       <h1 className="text-grey-darker font-serif">Registration</h1>
        <br />
-      Registration will be open soon.
+      Register for <strong><a class="no-underline text-teal hover:font-bold" href="http://events.deusto.es/go/iot2019" target="_blank" rel="noopener noreferrer">IoT 2019 using this website.</a></strong> It can take about 15 mins to complete the registration including the payment (by credit card).
       <br /><br />
 
 
