@@ -46,42 +46,49 @@ const Header = () => {
           className="hidden md:flex md:items-center w-full md:w-auto"
         >
           <div className="text-xl">
-            <Link
+            {/*<Link
               to="/cfp"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
             >
               CFP
-            </Link>
+            </Link>*/}
 
             <Link
               to="/attending"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-4 no-underline text-white"
             >
               Attending
             </Link>
             <Link
               to="/registration"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-4 no-underline text-white"
             >
               Registration
             </Link>
 
             <Link
               to="/program"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-4 no-underline text-white"
             >
               Program
             </Link>
             
             <Link
+              to="/workshops"
+              className="block mt-4 md:inline-block md:mt-0 mr-4 no-underline text-white"
+            >
+              Workshops
+            </Link>
+
+            <Link
               to="/keynotes"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+              className="block mt-4 md:inline-block md:mt-0 mr-4 no-underline text-white"
             >
               Keynotes
             </Link>
             <Link
               to="/committee"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 mr-4 no-underline text-white"
             >
               Committee
             </Link>
@@ -90,7 +97,7 @@ const Header = () => {
               to="/sponsoring"
               className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
             >
-              Sponsoring
+              Sponsors
             </Link>
             
             

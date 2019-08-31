@@ -258,7 +258,7 @@ const CommitteePage = () => (
               <li>Olivier  Boissier,  Mines Saint-Etienne (France)</li>
               <li>Iva  Bojic, SMART (USA)</li>
               <li>Raymond  Bond,  Ulster University (Northern Ireland)</li>
-              <li>Anei Ciortea, University of St. Gallen (Switzerland)</li>
+              <li>Andrei Ciortea, University of St. Gallen (Switzerland)</li>
               <li>Liming Chen, De Montfort University (UK)</li>
               <li>Paul Davidsson, Malmo University (Sweeden)</li>
               <li>Giuseppe Di Modica ,University of Catania (Italy)</li>

@@ -2,7 +2,6 @@ import React from "react";
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
-import Julie from "../images/committee/julie.jpg";
 import Alex from "../images/committee/alex.jpg";
 
 

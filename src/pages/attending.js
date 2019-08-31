@@ -2,8 +2,6 @@ import React from 'react'
 import Deusto from "../images/deusto.jpg";
 import Location from "../images/location.png";
 import Plane from "../images/byPlane.png";
-import HotelsTable from "../images/mapa.png";
-import HotelsMap from "../images/hotels.png";
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import SEO from '../components/seo'
@@ -19,12 +17,13 @@ const AttendingPage = () => (
       <div className="md:w-3/3 md:mr-8">
         <p className="border-l-4 border-red-light text-grey-darker font-serif leading-loose pl-4 text-justify">
           <h1 >Attending and facilities</h1>
-        </p>
-        <br />
-        <p className="font-sans leading-normal text-xl text-justify">
+          <p className="font-sans leading-normal text-xl text-justify">
           The conference and the workshops will take place at the University of Deusto.<br />
           <strong>Address:</strong> Avenida de las universidades, 24 48007 Bilbao (Spain) - <a class="no-underline text-teal hover:font-bold" href="https://www.google.es/maps/place/University+of+Deusto/@43.2712452,-2.9385576,15z/data=!4m2!3m1!1s0x0:0x6ea1bd3e8bae3141?ved=2ahUKEwiNnKbD7eDfAhXIxIUKHQ8DCAUQ_BIwDnoECAYQCA" target="_blank" rel="noopener noreferrer">Google Maps</a> -  
         </p>
+        </p>
+        <br />
+        
         <br /><br />
 
         <p className="font-sans leading-normal text-lg text-justify">
@@ -63,17 +62,18 @@ const AttendingPage = () => (
            <h2 className="text-teal"> Hotels </h2>
               
               Bilbao  is a tourist centre and convention city, and thus offers a large variety of hotel suitable for any budget, either  within easy walking distance of the conference site or easily reachable with a short bus or tram ride.
-              <br />
-
-            The Organizing Committee will secure preferential rates for the Conference participants. You will be able to view more information and book your accommodation through the online registration system in the near future. A few examples of the hotels around are given below:
+              <br />           
+              In the following map you will find a list and location of diverse hotels close to the conference venue (zoom in and click on the map to dispaly the information of each hotel). 
 
         </p>
 
       <br />
 
-      <img src={HotelsTable} alt=""/>
-      <img src={HotelsMap} alt=""/>
-      
+      {/*<img src={HotelsTable} alt=""/>
+      <img src={HotelsMap} alt=""/>*/}
+      <p className="font-sans leading-normal  text-lg text-center">
+      <iframe title="Bilbao map" src="https://www.google.com/maps/d/u/0/embed?mid=1S3g6wMTUsoT75uBG0LAxztNSALvPbd9o" width="640" height="480"></iframe>
+      </p>
       </div>
 
     </div>

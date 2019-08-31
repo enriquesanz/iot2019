@@ -74,9 +74,9 @@ const ProgramPage = () => (
         <br />
         <ul>
           <li><strong><a class="no-underline text-teal hover:font-bold" href="https://scoreworkshop2019.wordpress.com/" target="_blank" rel="noopener noreferrer">Learning from Smart Cities Open Research Experiences (SCORE)</a></strong> </li>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="http://www.iot-cwsi.org/" target="_blank" rel="noopener noreferrer">Connected World/Web & Semantic Interoperability Workshop - CWSI 2019</a></strong> </li>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://cpss.netsons.org/" target="_blank" rel="noopener noreferrer">1st Workshop on Cyber-Physical Social Systems for smart cities (CyPhySS4Cities) 2019</a></strong></li>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://www.iof2020.eu/" target="_blank" rel="noopener noreferrer">IoF2020: Internet of Food and Farm 2020</a></strong></li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="http://www.iot-cwsi.org/" target="_blank" rel="noopener noreferrer">Connected World/Web & Semantic Interoperability Workshop - (CWSI) </a></strong> </li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://cpss.netsons.org/" target="_blank" rel="noopener noreferrer">1st Workshop on Cyber-Physical Social Systems for smart cities (CPSS)</a></strong></li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://www.iof2020.eu/" target="_blank" rel="noopener noreferrer">Internet of Food and Farm 2020 (IoF2020)</a></strong></li>
         </ul>
         
         

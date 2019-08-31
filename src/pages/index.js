@@ -7,6 +7,7 @@ import FGCS from '../images/SI/FGCS.jpg'
 import SENSORS from '../images/SI/sensors.png'
 import PUC from '../images/SI/PUC.jpg'
 import TRAN from '../images/SI/transactions.gif'
+import { Link } from 'gatsby'
 
 
 const IndexPage = () => (
@@ -40,7 +41,7 @@ const IndexPage = () => (
 
         <p className="font-sans leading-normal text-lg text-justify">
         The Internet of Things Conference is seeking original, high impact research papers on all topics related to the development of the Internet of Things. Papers will be reviewed 
-        and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance.
+        and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance. Have a look to the <strong><Link to="/cfp" className=" text-teal hover:text-red-light"> CFP</Link></strong>.
         <br/>
         </p>
         <br/>
@@ -62,7 +63,7 @@ const IndexPage = () => (
         <ul className="sm:list-reset">
           <li><strong>Paper submission:</strong><br/><strike className="text-red-light"> June 2, 2019</strike><br/> <strike className="text-teal"><strong className="text-teal text-lg">June 16, 2019</strong></strike></li>
           <li><strong>Acceptance notification:</strong><br/> <strike>July 21, 2019</strike></li>
-          <li><strong>Camera-ready:</strong><br/> September 1, 2019</li>
+          <li><strong>Camera-ready:</strong><br/> September 8, 2019</li>
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>

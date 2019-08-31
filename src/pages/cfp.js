@@ -37,11 +37,11 @@ const CFPPage = () => (
       <p className="text-left text-teal">(Call for Papers)</p>
 
       
-        <ul>
+        {/*<ul>
           <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/>  <strike className="text-purple-light"><strong className="text-purple-light text-lg">June 16, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>
           <li><strong className="text-grey-darker">Notifications:</strong> <strike>July 21, 2019 </strike></li>
           <li><strong className="text-grey-darker">Camera ready:</strong> September 1, 2019</li>
-        </ul>
+        </ul>]*/}
 
       <Link
               to="/wips"
@@ -51,11 +51,11 @@ const CFPPage = () => (
       </Link>
       <p className="text-teal text-left">(Call for Posters and Demos)</p>
 
-          <ul>
+          {/*<ul>
           <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> July 28, 2019</strike><br/>  <strong className="text-purple-light text-lg">August 4, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</li>            
             <li><strong className="text-grey-darker">Notifications:</strong> August  20, 2019</li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> September 1, 2019 </li>
-          </ul>
+          </ul>*/}
 
       </p>
 
@@ -69,11 +69,11 @@ const CFPPage = () => (
       </Link>
       <p className="text-teal text-left">(Call for Workshops)</p>
 
-        <ul>
+        {/*<ul>
           <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 2, 2019</strike><br/> <strike className="text-purple-light"><strong className="text-purple-light text-lg">June 23, 2019</strong> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>
           <li><strong className="text-grey-darker">Notifications:</strong><strike> June 25, 2019</strike></li>
           <li><strong className="text-grey-darker">Camera Ready (information in web):</strong> July 21, 2019</li>
-        </ul>
+        </ul>*/}
         
         <Link
               to="/doctoral"
@@ -83,11 +83,11 @@ const CFPPage = () => (
         </Link>
         <p className="text-teal text-left">(Call for PhD early research)</p>
       
-          <ul>
+          {/*<ul>
             <li><strong className="text-grey-darker">Submissions:</strong> <strike className="text-red-light"> June 28, 2019</strike><br/> <strong className="text-purple-light text-lg"><strike>July 5, 2019</strike></strong><strike> (<a class="no-underline hover:font-bold text-purple-light" href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">23:59 AoE</a>)</strike></li>          
             <li><strong className="text-grey-darker">Notifications:</strong><strike> July 21, 2019</strike></li>
             <li><strong className="text-grey-darker">Camera Ready:</strong> July 30, 2019</li>
-            </ul>
+            </ul>*/}
 
         
       </p>      
