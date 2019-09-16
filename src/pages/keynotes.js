@@ -3,6 +3,7 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import Alex from "../images/committee/alex.jpg";
+import Benoit from "../images/committee/benoit.jpg";
 
 
 const KeynotesPage = () => (
@@ -17,19 +18,19 @@ const KeynotesPage = () => (
           <h1>Keynotes</h1>
         </p>
         <br />  
-            {/*<div className="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
               <div className="mb-12">
                 <p className="text-sm text-grey-dark flex items-center">
                   Abstract
                 </p>
-              <div className="text-black font-bold text-xl mb-2">From IoT to Ephemeral Computing:  Understanding Cyber-Physical  Interactions for Monitoring and Control</div>
-                <p className="text-grey-darker text-base text-justify">Networks of sensor devices are being embedded into the world around us, however to ensure their continuous operation requires new network protocols, data analytics. Over the past 20 years work has progressed on such new technologies and systems and yet uptake has not been so forthcoming.  One needs to ask why has this been the case and makes the argument that a strong understanding of how the physical world impacts on the cyber world could be core to this issue; one of the many reasons that such systems once deployed simply under perform and are inherently unreliable. Understanding this cyber-physical interaction can not only provide a degree of assurances regarding sensor-based systems but can also help us to achieve more from them than before. Illustrating these concepts with concrete examples, this talk discusses the progression from embedded systems and the Internet of Things (IoT) through to what the future of such systems could look like and how this will bring about a world of Ephemeral Computing.</p>
+              <div className="text-black font-bold text-xl mb-2">Programming and forming objects with modular robots to enable a programmable matter</div>
+                <p className="text-grey-darker text-base text-justify">Technological advances, especially in the miniaturization of robotic devices foreshadow the emergence of large-scale ensembles of small-size resource-constrained robots that distributively cooperate to achieve complex tasks. These ensembles are formed by independent, intelligent and communicating units which act as a whole ensemble which can be used to build programmable matter i.e. matter able to change its shape. In my talk, I will present our research effort in building Programmable Matter (PM) based on modular robots. To do this, we use micro-technology to scale down the size of each element, and we study geometry, structure, actuation, power, electronics and integration. To manage the complexity of this kind of environment, we propose a complete environment including programmable hardware, a programming language, a compiler, a simulator, a debugger and distributed algorithms</p>
               </div>
               <div className="flex items-center">
-                <img className="w-12 h-12 rounded-full mr-4" src={Julie} alt="Julie McCann" />
+                <img className="w-12 h-12 rounded-full mr-4" src={Benoit} alt="Benoit Piranda" />
                 <div className="text-sm">
-                  <p className="text-black leading-none text-lg font-sans">Julie McCann</p>
-                  <p className="text-grey-dark ">Imperial College, UK</p>
+                  <p className="text-black leading-none text-lg font-sans">Benoit Piranda</p>
+                  <p className="text-grey-dark ">Member of Department of Computing Univ. Bourgogne-Franche-Comté, Institut FEMTO-ST, CNRS (France)</p>
                 </div>
               </div>
               <div className="mb-12">
@@ -37,9 +38,11 @@ const KeynotesPage = () => (
                   Bio
                 </p>
               
-                <p className="text-grey-darker text-base text-justify">Julie A. McCann is a Professor in Computer Systems at Imperial College. Her research centres on highly decentralized and self-organizing scalable algorithms for spatial computing systems e.g. wireless sensing networks. or cyber-physical systems. She leads the Adaptive Embedded Systems Engineering Research Group and Directed the Intel Collaborative Research Institute for Sustainable Cities, and is currently working with IBM, CISCO and others on substantive smart city projects. She has received significant funding though bodies such as the UK's EPSRC and NERC as well as various international funds, and is an elected peer for the EPSRC. She has actively served on, and chaired, many conference committees and is a Fellow of the BCS and Charted Engineer.</p>
+                <p className="text-grey-darker text-base text-justify">Benoît Piranda is Associate Professor of Computer Science at the University of Franche-Comté in France. He is part of the Complex Networks Team (DISC/OMNI) of the FEMTO-ST Institute, CNRS. His main domains of research are Distributed Programming, Physical and Visual Simulations of Robots and Computer Graphics (Image Synthesis). He is the author of about 20 papers in these subjects. He is an active member of many projects on Programmable Matter and Distributed Algorithms (ANR Programmable Matter, UBFC ISITE Programmable Matter, CO2DIM, Smart Blocks). 
+He leads the development of the VisibleSim software which is a behavioral simulator of modular robots (http://projects.femto-st.fr/projet-visiblesim/en). This simulator executes in parallel every code running simultaneously in thousands of modules, simulates communications, motions, physical interactions, and various sensors and actuators. 
+Benoît Piranda has also worked on the organization of conferences, served as Program Chair or Publicity Chair and was member of the Program Committees (DARS 2018, IEEE ATC 2017, IEEE EUC 2016, IEEE CSE 2016, IEEE HPCC 2014, IEEE Ithings 2012, IEEE GreenCom 2012, IEEE CPSCom 2012) and chaired various conferences sessions.</p>
               </div>
-            </div>*/}
+            </div>
 
           <br />
 

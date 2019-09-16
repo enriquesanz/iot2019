@@ -7,6 +7,8 @@ import EC from "../images/sponsors/EC-Council.png";
 import IoTCouncil from "../images/sponsors/counciliot.png";
 import Deusto from "../images/sponsors/Deusto.jpeg";
 import FI from '../images/SI/futureinternet-logo.png'
+import Ikerlan from '../images/sponsors/ikerlan.png'
+
 
 const SponsorsPage = () => (
   <Layout>
@@ -40,17 +42,20 @@ const SponsorsPage = () => (
           <strong>Sponsors</strong>
         </p>
         <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
+        <br/><br/>
+        <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.ikerlan.es/en/" target="_blank" rel="noopener noreferrer"><img src={Ikerlan} alt="Gold"/></a></div>
         
       </div>
       <br/>
       <div className="flex flex-col ">
         <p className="text-sm text-dark flex items-center text-teal">
+        <br/><br/>
           <strong>Contributors</strong>
 
         </p>
       {/*<div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+SILVER+logo+here" alt="Silver"/></div>
       <div className="w-full"><img src="https://via.placeholder.com/350x150?text=Sponsor+BRONZE+logo+here" alt="Bronze"/></div>*/}
-      <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/futureinternet" target="_blank" rel="noopener noreferrer"><img src={FI} alt="FutureInternet"/></a></div>
+      <div className="text-grey-darker text-center  px-10 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.mdpi.com/journal/futureinternet" target="_blank" rel="noopener noreferrer"><img src={FI} alt="FutureInternet"/></a></div>
       </div>
       <br/>
 
@@ -58,9 +63,9 @@ const SponsorsPage = () => (
         <p className="text-sm text-dark flex items-center text-teal">
           <strong>Friends of IoT Conference</strong>
         </p>
-        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.eccouncil.org/" target="_blank" rel="noopener noreferrer"><img src={EC} alt="EC"/></a></div>
-        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="http://iot.committees.comsoc.org/" target="_blank" rel="noopener noreferrer"><img src={ComSoc} alt="ComSoc"/></a></div>
-        <div className="text-grey-darker text-center  px-30 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.theinternetofthings.eu/" target="_blank" rel="noopener noreferrer"><img src={IoTCouncil} alt="IoTCouncil"/></a></div>
+        <div className="text-grey-darker text-center  px-10 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.eccouncil.org/" target="_blank" rel="noopener noreferrer"><img src={EC} alt="EC"/></a></div>
+        <div className="text-grey-darker text-center  px-10 py-2 m-2"><a class="no-underline hover:border-purple-light " href="http://iot.committees.comsoc.org/" target="_blank" rel="noopener noreferrer"><img src={ComSoc} alt="ComSoc"/></a></div>
+        <div className="text-grey-darker text-center  px-10 py-2 m-2"><a class="no-underline hover:border-purple-light " href="https://www.theinternetofthings.eu/" target="_blank" rel="noopener noreferrer"><img src={IoTCouncil} alt="IoTCouncil"/></a></div>
       </div>        
 
     </p>

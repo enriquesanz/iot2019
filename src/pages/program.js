@@ -2,6 +2,7 @@ import React from "react";
 import Sponsors from "../components/sponsors";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import PreliminaryProgramm from "../files/PreliminaryProgram.pdf";
 
 const ProgramPage = () => (
 <Layout>
@@ -17,7 +18,7 @@ const ProgramPage = () => (
          <br />
 
           <div className="block md:flex xl:flex">
-            The full program will be anounced soon.
+            The preliminary full program can be downloaded:  <a class="no-underline text-teal hover:font-bold" href={PreliminaryProgramm} target="_blank" rel="noopener noreferrer"> here.</a>
           </div>          
     
     </p>
