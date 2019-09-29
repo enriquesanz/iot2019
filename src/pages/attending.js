@@ -2,6 +2,7 @@ import React from 'react'
 import Deusto from "../images/deusto.jpg";
 import Location from "../images/location.png";
 import Plane from "../images/byPlane.png";
+import Restaurant from "../images/aspaldiko.jpg";
 import Layout from '../components/layout'
 import Sponsors from "../components/sponsors";
 import SEO from '../components/seo'
@@ -74,6 +75,14 @@ const AttendingPage = () => (
       <p className="font-sans leading-normal  text-lg text-center">
       <iframe title="Bilbao map" src="https://www.google.com/maps/d/u/0/embed?mid=1S3g6wMTUsoT75uBG0LAxztNSALvPbd9o" width="640" height="480"></iframe>
       </p>
+      <br />
+      <p className="font-sans leading-normal  text-lg text-justify">
+        <h2 className="text-teal"> Social Event </h2>
+        On the afternoon of Thursday 24th of October, we will go to Aspaldiko restaurant, where history and culture mix with gastronomy. Please, gently find the address in the above map. The dinner will start at 8 p.m. sharp. <br/><br/>
+
+        <a class="no-underline hover:border-purple-light " href="https://www.aspaldiko.com/en/ar/1/home.html" target="_blank" rel="noopener noreferrer"><img src={Restaurant} alt=""/></a>
+      </p>
+
       </div>
 
     </div>

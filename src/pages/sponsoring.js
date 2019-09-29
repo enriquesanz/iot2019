@@ -42,8 +42,8 @@ const SponsorsPage = () => (
           <strong>Sponsors</strong>
         </p>
         <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
-        <br/><br/>
-        <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.ikerlan.es/en/" target="_blank" rel="noopener noreferrer"><img src={Ikerlan} alt="Gold"/></a></div>
+        <br/><br/><br/>
+        <div className="w-full text-center"><br/><a class="no-underline hover:border-purple-light " href="https://www.ikerlan.es/en/" target="_blank" rel="noopener noreferrer"><img src={Ikerlan} alt="Gold"/></a></div>
         
       </div>
       <br/>

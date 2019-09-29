@@ -62,6 +62,20 @@ const ProgramPage = () => (
         <li>Put that Hologram there - Probing Mobile Interaction Experiences for a Vision of Mixed Material Public Spaces</li>        
         </ul>            
         <br />
+        
+        <h2 className="text-teal font-serif">Accepted Demos and Posters:</h2>
+          <ul>
+            <li>Calibration Transfer for Food Recognition Models for E-Noses</li>
+            <li>Sensor Gym: Training Autonomous IoT Devices with Deep Reinforcement Learning</li>
+            <li>POSTER: Human-Drone Teaming: Use Case Bookshelf Inventory</li>
+            <li>Event-Based Single-Person 2D Human Pose Estimation in Real Time</li>
+            <li>Workflow-based Setup of Smart Devices in Mixed Reality</li>
+            <li>Creating Awareness in Embedded Systems - IoT enabled Temperature-Awareness in PLCs</li>
+            <li>Toward a Delay Tolerant Internet of Things</li>
+            <li>An Interactive Interface for Bulk Software Deployment in IoT</li>
+          </ul>
+        <br />      
+
         <h2 className="text-teal font-serif">Accepted Doctoral Colloquium:</h2>
           <ul>
             <li>Network Coding for IIoT Multi-Cloud Environments</li>
@@ -70,14 +84,11 @@ const ProgramPage = () => (
             <li>A Novel Semantic Complex Event Processing (SCEP) Framework for Stream Processing</li>
           </ul>
         <br />      
+
         <h2 className="text-teal font-serif">Accepted workshops:</h2>
-        The accepted workshops are listed below:
-        <br />
         <ul>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://scoreworkshop2019.wordpress.com/" target="_blank" rel="noopener noreferrer">Learning from Smart Cities Open Research Experiences (SCORE)</a></strong> </li>
           <li><strong><a class="no-underline text-teal hover:font-bold" href="http://www.iot-cwsi.org/" target="_blank" rel="noopener noreferrer">Connected World/Web & Semantic Interoperability Workshop - (CWSI) </a></strong> </li>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://cpss.netsons.org/" target="_blank" rel="noopener noreferrer">1st Workshop on Cyber-Physical Social Systems for smart cities (CPSS)</a></strong></li>
-          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://www.iof2020.eu/" target="_blank" rel="noopener noreferrer">Internet of Food and Farm 2020 (IoF2020)</a></strong></li>
+          <li><strong><a class="no-underline text-teal hover:font-bold" href="https://cpss.netsons.org/" target="_blank" rel="noopener noreferrer">1st Workshop on Cyber-Physical Social Systems for smart cities (CPSS)</a></strong></li>          
         </ul>
         
         

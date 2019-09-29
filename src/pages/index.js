@@ -63,7 +63,7 @@ const IndexPage = () => (
         <ul className="sm:list-reset">
           <li><strong>Paper submission:</strong><br/><strike className="text-red-light"> June 2, 2019</strike><br/> <strike className="text-teal"><strong className="text-teal text-lg">June 16, 2019</strong></strike></li>
           <li><strong>Acceptance notification:</strong><br/> <strike>July 21, 2019</strike></li>
-          <li><strong>Camera-ready:</strong><br/> September 8, 2019</li>
+          <li><strong>Camera-ready:</strong><br/> <strike>September 8, 2019</strike></li>
           <li><strong>Conference:</strong><br/> October 22-25, 2019</li>
         </ul>
         </p>
