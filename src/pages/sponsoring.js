@@ -8,6 +8,7 @@ import IoTCouncil from "../images/sponsors/counciliot.png";
 import Deusto from "../images/sponsors/Deusto.jpeg";
 import FI from '../images/SI/futureinternet-logo.png'
 import Ikerlan from '../images/sponsors/ikerlan.png'
+import GV from '../images/sponsors/logo-gobierno_ES.png'
 
 
 const SponsorsPage = () => (
@@ -41,9 +42,11 @@ const SponsorsPage = () => (
         <p className="text-sm text-dark flex items-center text-teal">
           <strong>Sponsors</strong>
         </p>
-        <div className="w-full"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
+        <div className="w-full text-center"><a class="no-underline hover:border-purple-light " href="https://www.deusto.es/" target="_blank" rel="noopener noreferrer"><img src={Deusto} alt="Platinium"/></a></div>
         <br/><br/><br/>
         <div className="w-full text-center"><br/><a class="no-underline hover:border-purple-light " href="https://www.ikerlan.es/en/" target="_blank" rel="noopener noreferrer"><img src={Ikerlan} alt="Gold"/></a></div>
+        <br/><br/><br/>
+        <div className="w-full text-center text-sm text-grey-darker font-serif"><br/><a class="no-underline hover:border-purple-light " href="http://www.euskadi.eus/informacion/ayudas-para-programas-de-investigacion-organizacion-de-congresos-y-reuniones-cientificas/web01-a2hunib/es/" target="_blank" rel="noopener noreferrer"><img src={GV} alt="Gold"/></a> Grant RC_2019_2_0042,<br/> Congress and Scientific Meetings Organization.</div>
         
       </div>
       <br/>

@@ -18,14 +18,14 @@ const ProgramPage = () => (
          <br />
 
           <div className="block md:flex xl:flex">
-            The preliminary full program can be downloaded:  <a class="no-underline text-teal hover:font-bold" href={PreliminaryProgramm} target="_blank" rel="noopener noreferrer"> here.</a>
+            <a class="no-underline text-teal hover:font-bold text-3xl" href={PreliminaryProgramm} target="_blank" rel="noopener noreferrer"> Click here to download the conference full program.</a>
           </div>          
     
     </p>
      <br /> <br />
     <div className="flex">
 
-      <p className="font-sans leading-normal pl-4 text-justify text-lg  ">
+      <p className="font-sans leading-normal pl-4 text-justify text-base">
         <h2 className="text-teal font-serif">Accepted papers</h2>
         <h3 className="text-grey-darker font-serif">Full Papers</h3>
         <ul>

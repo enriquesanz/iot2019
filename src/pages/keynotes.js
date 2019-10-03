@@ -85,9 +85,9 @@ const KeynotesPage = () => (
                   Keynote October 25, 2019
                 </p>
               <div className="flex items-center">
-                <img className="w-12 h-12 rounded-full mr-4" src={Benoit} alt="Benoit Piranda" />
+                <img className="w-12 h-12 rounded-full mr-4" src={Benoit} alt="Benoît Piranda" />
                 <div className="text-sm">
-                  <p className="text-black leading-none text-lg font-sans">Benoit Piranda</p>
+                  <p className="text-black leading-none text-lg font-sans">Benoît Piranda</p>
                   <p className="text-grey-dark ">Member of Department of Computing Univ. Bourgogne-Franche-Comté, Institut FEMTO-ST, CNRS (France)</p>
                 </div>
               </div>

@@ -27,7 +27,7 @@ const WorkshopsPage = () => (
     <br /><br />
 
     <div className="flex">
-      <p className="font-sans leading-normal pl-4 text-justify text-lg">
+      <p className="font-sans leading-normal pl-4 text-justify text-base">
       {/*<h2 className="text-teal font-serif">Accepted workshops:</h2>
         The accepted workshops are listed below:
         <br /><br />*/}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Deusto from "../images/deusto.jpg";
+import DeustoEntry from "../images/deustoentradas.png";
 import Location from "../images/location.png";
 import Plane from "../images/byPlane.png";
 import Restaurant from "../images/aspaldiko.jpg";
@@ -19,8 +20,8 @@ const AttendingPage = () => (
         <p className="border-l-4 border-red-light text-grey-darker font-serif leading-loose pl-4 text-justify">
           <h1 >Attending and facilities</h1>
           <p className="font-sans leading-normal text-xl text-justify">
-          The conference and the workshops will take place at the University of Deusto.<br />
-          <strong>Address:</strong> Avenida de las universidades, 24 48007 Bilbao (Spain) - <a class="no-underline text-teal hover:font-bold" href="https://www.google.es/maps/place/University+of+Deusto/@43.2712452,-2.9385576,15z/data=!4m2!3m1!1s0x0:0x6ea1bd3e8bae3141?ved=2ahUKEwiNnKbD7eDfAhXIxIUKHQ8DCAUQ_BIwDnoECAYQCA" target="_blank" rel="noopener noreferrer">Google Maps</a> -  
+          The conference and the workshops will take place at the University of Deusto. When arriving into the main building ask for the Ceremonial Hall Cloister ( - spanish - <i>"Claustro Paraninfo")</i><br />
+          <strong>Address:</strong> Avenida de las universidades, 24 48007 Bilbao (Spain) - <a class="no-underline text-teal hover:font-bold" href="https://www.google.es/maps/place/University+of+Deusto/@43.2712452,-2.9385576,15z/data=!4m2!3m1!1s0x0:0x6ea1bd3e8bae3141?ved=2ahUKEwiNnKbD7eDfAhXIxIUKHQ8DCAUQ_BIwDnoECAYQCA" target="_blank" rel="noopener noreferrer">Google Maps</a> -. See the main entries in the picture below.  
         </p>
         </p>
         <br />
@@ -36,6 +37,7 @@ const AttendingPage = () => (
         </p>
         <br />
         <img src={Deusto} alt="University of Deusto"/>
+        <img src={DeustoEntry} alt="University of Deusto"/>
         <br /><br />
         <p className="font-sans leading-normal text-lg text-justify">
            <h2 className="text-teal"> About the city </h2>
