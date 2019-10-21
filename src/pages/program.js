@@ -68,7 +68,6 @@ const ProgramPage = () => (
             <li>Calibration Transfer for Food Recognition Models for E-Noses</li>
             <li>Sensor Gym: Training Autonomous IoT Devices with Deep Reinforcement Learning</li>
             <li>POSTER: Human-Drone Teaming: Use Case Bookshelf Inventory</li>
-            <li>Event-Based Single-Person 2D Human Pose Estimation in Real Time</li>
             <li>Workflow-based Setup of Smart Devices in Mixed Reality</li>
             <li>Creating Awareness in Embedded Systems - IoT enabled Temperature-Awareness in PLCs</li>
             <li>Toward a Delay Tolerant Internet of Things</li>
