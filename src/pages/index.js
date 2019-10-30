@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Index from "../images/index-with-logos.png";
+import Index from "../images/index-with-logos_1.jpg";
 import Sponsors from "../components/sponsors";
 import FGCS from '../images/SI/FGCS.jpg'
 import SENSORS from '../images/SI/sensors.png'
@@ -44,6 +44,7 @@ const IndexPage = () => (
         and selected based on technical novelty, integrity of the analysis and social-environmental impacts and practical relevance. Have a look to the <strong><Link to="/cfp" className=" text-teal hover:text-red-light"> CFP</Link></strong>.
         <br/>
         </p>
+        
         <br/>
         <h4 className=" font-serif text-grey-darker text-left">Special Issues:</h4>
         <div className="flex">
